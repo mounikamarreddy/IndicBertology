@@ -1,0 +1,675 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='2'>
+1	((	NP	<fs name='NP' drel='k2:VGINF'>
+1.1	കള്ള്	N__NN	<fs af='കള്ള്,n,ne,sg,3,d,0,0' name='കള്ള്'>
+	))
+2	((	VGINF	<fs af=',,,,,,,' drel='vmod:VGNF' name='VGINF'>
+2.1	ഉണ്ടാക്കാന്‍	V_VM_VINF	<fs af='ഉണ്ടാക്,v,,,,,,An' Participles='yes' Participles_m='ആന്‍' name='ഉണ്ടാക്കാന്‍'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' drel='vmod:VGNF2' name='VGNF'>
+3.1	ആയി	V_VM_VNF	<fs af='ആ,v,,,,,ഇ,yi' name='ആയി'>
+	))
+4	((	NP	<fs name='NP2' drel='pof:VGNF2'>
+4.1	തെങ്ങിന്‍പൂക്കുല	N_NN	<fs af='തെങ്ങിന്‍പൂക്കുല,n,ne,sg,3,d,0,0' name='തെങ്ങിന്‍പൂക്കുല'>
+	))
+5	((	VGNF	<fs af=',,,,,,,' name='VGNF2' drel='nmod__relc:NP3'>
+5.1	ചെത്തിയെടുക്കുന്ന	V_VM_VNF	<fs af='ചെത്തിയെട്,v,,,,,ഉന്ന,kkunna' name='ചെത്തിയെടുക്കുന്ന'>
+	))
+6	((	NP	<fs name='NP3' drel='k2s:VGF'>
+6.1	പൂക്കുലസത്ത്	N_NN	<fs af='പൂക്കുലസത്ത്,n,ne,sg,3,d,0,0' name='പൂക്കുലസത്ത്'>
+6.2	തന്നെ	RP_RPD	<fs af='തന്നെ,rpd,,,,,,' name='തന്നെ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+7.1	ആണ്	V__VM__VF	<fs af='ആണ്,v,,,,,,' name='ആണ്'>
+	))
+8	((	NP	<fs name='NP4' drel='k1:VGF'>
+8.1	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+9	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+9.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	CCP	<fs name='CCP' drel='ccof:VGF'>
+1.1	എന്നാല്‍	CC_CCS	<fs af='എന്നാല്‍,ccp,,,,,,' name='എന്നാല്‍'>
+1.2	,	RD_PUNC	<fs af=',,punc,,,,,' name=','>
+	))
+2	((	VGINF	<fs drel='vmod:VGNF'>
+2.1	പുളിക്കാന്	V__VM__VINF	<fs af='പുളിക്കാന്,v,,,,,,An' name='പുളിക്കാന്'>
+	))
+3	((	VGNF	<fs drel='nmod:NP' name='VGNF'>
+3.1	അനുവദിക്കാതെ	V_VM_VNF	<fs af='അനുവദി,v,,,,,,Atte' Passive='yes' Participles_m='ആത്ത' name='അനുവദിക്കാതെ'>
+	))
+4	((	NP	<fs name='NP' drel='k1:VGNF2'>
+4.1	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+5	((	VGNF	<fs name='VGNF2' drel='rh:VGF'>
+5.1	സംസ്‌കരിക്കേണ്ടത്	V__VM__VNF	<fs af='സംസ്‌കരിക്ക്,v,,,,,ണ്ട,eNTatu' Nominal='yes' Nominal_m='ത്' name='സംസ്‌കരിക്കേണ്ടത്'>
+5.2	കൊണ്ട്	PSP	<fs af='കൊണ്ട്,psp,,,,,,' name='കൊണ്ട്'>
+	))
+6	((	JJP	<fs af=',,,,,,,' name='JJP' drel='pof:VGF'>
+6.1	കൂടുതല്‍	QT_QTF	<fs af='കൂടുതല്‍,qtf,,,,,,' name='കൂടുതല്‍'>
+	))
+7	((	NP	<fs name='NP2' drel='ccof:NULL__CCP'>
+7.1	ശ്രദ്ധയും	N_NN	<fs af='ശ്രദ്ധ,n,ne,sg,3,d,,yum' Conjunction='yes' Conjunction_m='ഉം' name='ശ്രദ്ധയും'>
+	))
+8	((	NP	<fs name='NP3' drel='ccof:NULL__CCP'>
+8.1	വൈദഗ്ധ്യവും	N_NN	<fs af='വൈദഗ്ധ്യ,n,ne,sg,3,d,,yum' Conjunction='yes' Conjunction_m='ഉം' name='വൈദഗ്ധ്യവും'>
+	))
+9	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' dmrel='k2:VGF'>
+9.1	NULL	CC	<fs af='കൂടുതല്‍,qtf,,,,,,' name='NULL'>
+	))
+10	((	VGNF	<fs af='കൊണ്ട്,psp,,,,,,' name='VGNF3' drel='vmod:VGF'>
+10.1	ചെത്തുന്നവര്‍ക്ക്	V_VM_VNF	<fs af='ചെത്തുന്നവ,v,,,,,അര്‍കക്,aRkku' name='ചെത്തുന്നവര്‍ക്ക്'>
+	))
+11	((	VGF	<fs stype='declarative' voicetype='active' name='VGF'>
+11.1	വേണം	V__VM__VF	<fs af='വേണം,v,,,,,,' name='വേണം'>
+	))
+12	((	BLK	<fs name='BLK' drel='rsym:VGF'>
+12.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	ഉപഭോക്താവിന്റെ	N__NN	<fs af='ഉപഭോക്താവ്,n,ne,sg,3,d,ടെ,nRe' name='ഉപഭോക്താവിന്റെ'>
+	))
+2	((	NP	<fs name='NP2' drel='k7:VGNF'>
+2.1	കൈകളില്‍	N_NN	<fs af='കൈ,n,ne,pl,3,d,കള്‍ഇല്‍,kaLil' name='കൈകളില്‍'>
+	))
+3	((	VGNF	<fs drel='vmod-emph:VGF' name='VGNF'>
+3.1	എത്തുന്നത്	V__VM__VNF	<fs af='എത്ത്,v,,,,,ഉന്ന,unnatu' Nominal='yes' Nominal_m='ത്' name='എത്തുന്നത്'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	സംസ്‌കരിക്കപ്പെട്ട	JJ	<fs af='സംസ്‌കരിക്കപ്പെട്ട,adj,,,,,,' name='സംസ്‌കരിക്കപ്പെട്ട'>
+4.2	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+5	((	VGF	<fs name='VGF' drel='ccof:NULL__CCP'>
+5.1	ആണ്	V_VM_VF	<fs af='ആണ്,v,,,,,,' name='ആണ്'>
+5.2	,	RD_PUNC	<fs af=',,punc,,,,,' name=','>
+	))
+6	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP'>
+6.1	NULL	CC	<fs af=',,,,,,,' name='NULL'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF2'>
+7.1	യഥാര്‍ഥ	JJ	<fs af='യഥാര്‍ഥ,adj,,,,,,' name='യഥാര്‍ഥ'>
+7.2	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര2'>
+	))
+8	((	VGF	<fs stype='declarative' voicetype='active' name='VGF2' drel='ccof:NULL__CCP'>
+8.1	അല്ല	V__VM__VF	<fs af='അല്ല,v,,,,,,' name='അല്ല'>
+	))
+9	((	BLK	<fs name='BLK' drel='rsym:VGF2'>
+9.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	കേരള	N__NN	<fs af='കേരള,n,ne,sg,3,d,0,0' name='കേരള'>
+1.2	കാര്‍ഷിക	N__NN	<fs af='കാര്‍ഷിക,n,ne,sg,3,d,0,0' name='കാര്‍ഷിക'>
+1.3	സര്‍വകലാശാല	N__NN	<fs af='സര്‍വകലാശാല,n,ne,sg,3,d,0,0' name='സര്‍വകലാശാല'>
+	))
+2	((	VGNF	<fs drel='nmod__relc:NP2' name='VGNF'>
+2.1	പുറത്തിറക്കുന്ന	V_VM_VNF	<fs af='പുറത്തിറക്ക്,v,,,,,ഉന്ന,unna' name='പുറത്തിറക്കുന്ന'>
+	))
+3	((	NP	<fs name='NP2' drel='k2:VGF'>
+3.1	നീരപാനീയം	N__NN	<fs af='നീരപാനീയം,n,ne,sg,3,d,0,0' name='നീരപാനീയം'>
+	))
+4	((	NP	<fs name='NP3' drel='k2s:CCP'>
+4.1	'	RD_PUNC	<fs af=',punc,,,,,,' name='>'>
+4.2	കേരാമൃതം	N__NN	<fs af='കേരാമൃതം,n,ne,sg,3,d,0,0' name='കേരാമൃതം'>
+4.3	'	RD_PUNC	<fs af=',punc,,,,,,' name='2'>
+	))
+5	((	CCP	<fs name='CCP' drel='ccof:VGF'>
+5.1	എന്ന്	CC_CCS_UT	<fs af='എന്ന്,ccp,,,,,,' name='എന്ന്'>
+	))
+6	((	VGF	<fs stype='declarative' voicetype='active' name='VGF'>
+6.1	ആണ്	V__VM__VF	<fs af='ആണ്,v,,,,,,' name='ആണ്'>
+	))
+7	((	VGNF	<fs name='VGNF2' drel='vmod-emph:VGF'>
+7.1	അറിയപ്പെടുന്നത്	V__VM__VNF	<fs af='അറിയപ്പെട്,v,,,,,ഉന്ന,unnatu' Nominal='yes' Nominal_m='ത്' name='അറിയപ്പെടുന്നത്'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym:VGF'>
+8.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	<fs name='NP' drel='k5:VGNF'>
+1.1	നീരയില്‍	N__NN	<fs af='നീര,n,ne,sg,3,d,ഇല്‍,yilu' name='നീരയില്‍'>
+1.2	നിന്ന്	PSP	<fs af='നിന്ന്,psp,,,,,,' name='നിന്ന്'>
+	))
+2	((	VGNF	<fs af=',,,,,,,' drel='nmod__relc:NP2' name='VGNF'>
+2.1	ഉത്പാദിപ്പിക്കാവുന്ന	V_VM_VNF	<fs af='ഉത്പാദിപ്പിക്ക്,v,,,,,,avunna' name='ഉത്പാദിപ്പിക്കാവുന്ന'>
+	))
+3	((	NP	<fs name='NP2' drel='ccof:NULL__CCP'>
+3.1	ചക്കര	N__NN	<fs af='ചക്കര,n,ne,sg,3,d,0,0' name='ചക്കര'>
+3.2	,	RD__PUNC	<fs af='&comma,punc,,,,,,' name=','>
+	))
+4	((	NP	<fs name='NP3' drel='ccof:NULL__CCP'>
+4.1	പഞ്ചസാര	N__NN	<fs af='പഞ്ചസാര,n,ne,sg,3,d,0,0' name='പഞ്ചസാര'>
+	))
+5	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' dmrel='nmod:NP4'>
+5.1	NULL	CC	<fs af=',,,,,,,' name='NULL'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k4:VGF'>
+6.1	മുതലായവയ്‌ക്ക്	N__NN	<fs af='മുതലായവ,n,ne,sg,3,d,ഉ്,ykku' name='മുതലായവയ്‌ക്ക്'>
+6.2	ഒക്കെ	RP_RPD	<fs af='ഒക്കെ,rpd,,,,,,' name='ഒക്കെ'>
+	))
+7	((	NP	<fs name='NP5' drel='k7:VGF'>
+7.1	വിപണിയില്‍	N_NN	<fs af='വിപണി,n,ne,sg,3,d,ഇല്‍,yilu' name='വിപണിയില്‍'>
+	))
+8	((	NP	<fs name='NP6' drel='k1s:VGF'>
+8.1	വന്‍	JJ	<fs af='വന്,adj,,,,,,' name='വന്‍'>
+8.2	പ്രിയം	N__NN	<fs af='പ്രിയം,n,ne,sg,3,d,0,0' name='പ്രിയം'>
+	))
+9	((	VGF	<fs af=',,,,,,,' name='VGF' drel='ccof:CCP' stype='declarative' voicetype='active'>
+9.1	ഉണ്ടാകും	V_VM_VF	<fs af='ഉണ്ടാക്,v,,,,,ഉം,um' name='ഉണ്ടാകും'>
+	))
+10	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k1:VGF2'>
+10.1	എന്ന്	CC_CCS_UT	<fs af='എന്ന്,ccp,,,,,,' name='എന്ന്'>
+	))
+11	((	VGF	<fs af=',,,,,,,' name='VGF2'>
+11.1	പ്രതീക്ഷിക്കുന്നു	V_VM_VF	<fs af='പ്രതീക്ഷിക്ക്,v,,,,,ഉന്നു,unnu' name='പ്രതീക്ഷിക്കുന്നു'>
+	))
+12	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF2'>
+12.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	<fs name='NP' drel='k5:VGF'>
+1.1	ഒരു	QT__QTF	<fs af='ഒരു,qtf,,,,,,' name='ഒരു'>
+1.2	തെങ്ങില്‍	N_NN	<fs af='തെങ്ങ്,n,,,,,ഇല്‍,ilu' name='തെങ്ങില്‍'>
+1.3	നിന്ന്	PSP	<fs af='നിന്ന്,psp,,,,,,' name='നിന്ന്'>
+	))
+2	((	NP	<fs name='NP2' drel='k7t:VGF'>
+2.1	ഒരു	QT__QTF	<fs af='ഒരു,qtf,,,,,,' name='ഒരു2'>
+2.2	ദിവസം	N__NN	<fs af='ദിവസം,n,ne,sg,3,d,0,0' name='ദിവസം'>
+	))
+3	((	NP	<fs name='NP3' drel='k1s:VGF'>
+3.1	രണ്ട്	QT__QTC	<fs af='രണ്ട്,num,,,,,,' name='രണ്ട്'>
+3.2	ലിറ്റര്‍	N__NN	<fs af='ലിറ്റര്‍,n,ne,sg,3,d,0,0' name='ലിറ്റര്‍'>
+	))
+4	((	NP	<fs name='NP4' drel='k1:VGF'>
+4.1	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+5	((	VGF	<fs af=',,,,,,,' name='VGF'>
+5.1	ലഭിക്കും	V_VM_VF	<fs af='ലഭിക്ക്,v,,,,,ഉം,kkum' name='ലഭിക്കും'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+6.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='8'>
+1	((	CCP	<fs af=',,,,,,,' name='CCP' drel='ccof:VGNF'>
+1.1	എന്നാല്‍	CC_CCS	<fs af='എന്നാല്,ccp,,,,,,' name='എന്നാല്‍'>
+1.2	,	RD_PUNC	<fs af=',,punc,,,,,' name=','>
+	))
+2	((	NP	<fs name='NP' drel='k1:VGNF'>
+2.1	നല്ല	JJ	<fs af='നല്ല,adj,,,,,,' name='നല്ല'>
+2.2	പരിചരണം	N__NN	<fs af='പരിചരണം,n,ne,sg,3,d,0,0' name='പരിചരണം'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' drel='nmod__relc:VGNF2' name='VGNF'>
+3.1	ലഭിക്കുന്ന	V_VM_VNF	<fs af='ലഭിക്ക്,v,,,,,ഉന്ന,unna' name='ലഭിക്കുന്ന'>
+	))
+4	((	NP	<fs name='NP2' drel='k1:VGNF2'>
+4.1	ആരോഗ്യം	N__NN	<fs af='ആരോഗ്യം,n,ne,sg,3,d,0,0' name='ആരോഗ്യം'>
+	))
+5	((	VGNF	<fs af=',,,,,,,' name='VGNF2' drel='nmod__relc:VGF2'>
+5.1	ഉള്ള	V_VM_VNF	<fs af='ഉള്,v,,,,,,a' Participles='yes' Participles_m='അ' name='ഉള്ള'>
+	))
+6	((	NP	<fs name='NP3' drel='k7p:VGF'>
+6.1	തെങ്ങില്‍	N_NN	<fs af='തെങ്ങ്,n,,,,,ഇല്‍,ilu' name='തെങ്ങില്‍'>
+6.2	നിന്ന്	PSP	<fs af='നിന്ന്,psp,,,,,,' name='നിന്ന്'>
+	))
+7	((	NP	<fs name='NP4' drel='rsp:VGF'>
+7.1	അഞ്ച്	QT_QTC	<fs af='അഞ്ച്,num,,,,,,' name='അഞ്ച്'>
+7.2	ലിറ്റര്‍	N__NN	<fs af='ലിറ്റര്‍,n,ne,sg,3,d,0,0' name='ലിറ്റര്‍'>
+7.3	വരെ	PSP	<fs af='വരെ,psp,,,,,,' name='വരെ'>
+	))
+8	((	NP	<fs name='NP5' drel='k1:VGF'>
+8.1	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+9	((	VGF	<fs af=',,,,,,,' name='VGF' drel='ccof:CCP2' voicetype='active' stype='declarative'>
+9.1	ലഭിക്കും	V_VM_VF	<fs af='ലഭിക്ക്,v,,,,,ഉം,um' name='ലഭിക്കും'>
+	))
+10	((	CCP	<fs af=',,,,,,,' name='CCP2' drel='ccof:VGF2'>
+10.1	എന്ന്	CC_CCS_UT	<fs af='എന്ന്,ccp,,,,,,' name='എന്ന്'>
+	))
+11	((	VGF	<fs af=',,,,,,,' name='VGF2'>
+11.1	കണക്കാക്കപ്പെട്ടിട്ടുണ്ട്	V_VM_VF	<fs af='കണക്കാക്ക്,v,,,,,ട്ടുഇട്ട്ഉണ്ട്,ppeTTiTTuNTu' Passive='yes' Passive_m='പെട്' name='കണക്കാക്കപ്പെട്ടിട്ടുണ്ട്'>
+	))
+12	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF2'>
+12.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	*	RD_PUNC	<fs af='*,sym,,,,,,' name='*'>
+1.2	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+2	((	VGNF	<fs af=',,,,,,,' drel='nmod__relc:NP2' name='VGNF'>
+2.1	എടുക്കുന്ന	V_VM_VNF	<fs af='എടുക്ക്,v,,,,,ഉന്ന,unna' name='എടുക്കുന്ന'>
+	))
+3	((	NP	<fs name='NP2' drel='k1s:VGF'>
+3.1	ഒരു	QT__QTF	<fs af='ഒരു,qtf,,,,,,' name='ഒരു'>
+3.2	തെങ്ങ്	N__NN	<fs af='തെങ്ങ്,n,ne,sg,3,d,0,0' name='തെങ്ങ്'>
+	))
+4	((	NP	<fs name='NP3' drel='k7t:VGF'>
+4.1	വര്‍ഷത്തില്‍	N_NN	<fs af='വര്‍ഷ,n,ne,sg,3,d,ഇല്‍,ttilu' Participles='yes' Participles_m='ഇല്‍' name='വര്‍ഷത്തില്‍'>
+	))
+5	((	NP	<fs name='NP4' drel='k7:VGF'>
+5.1	1200	QT_QTC	<fs af='1200,num,,,,,,' name='1200'>
+5.2	രൂപയില്	N_NN	<fs af='രൂപ,n,ne,sg,3,d,ഇല്‍,yilu' name='രൂപയില്'>
+5.3	അധികം	QT_QTF	<fs af='അധികം,qtf,,,,,,' name='അധികം'>
+	))
+6	((	NP	<fs name='NP5' drel='pof:VGF'>
+6.1	അറ്റാദായം	N__NN	<fs af='അറ്റാദായം,n,ne,sg,3,d,0,0' name='അറ്റാദായം'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+7.1	നല്‍കും	V_VM_VF	<fs af='നല്ക്,v,,,,,ഉം,um' name='നല്‍കും'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+8.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='10'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	നീര	N__NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+2	((	VGNF	<fs af=',,,,,,,' drel='nmod__relc:NP2' name='VGNF'>
+2.1	എടുക്കുന്ന	V_VM_VNF	<fs af='എടുക്ക്,v,,,,,ഉന്ന,unna' name='എടുക്കുന്ന'>
+	))
+3	((	NP	<fs name='NP2' drel='k7p:VGF'>
+3.1	തെങ്ങില്‍	N_NN	<fs af='തെങ്ങ്,n,ne,sg,3,d,,ilu' Participles='yes' Participles_m='ഇല്‍' name='തെങ്ങില്‍'>
+	))
+4	((	CCP	<fs af=',,,,,,,' name='CCP' drel='ccof:VGF'>
+4.1	പിന്നീട്	CC__CCS	<fs af='പിന്നീട്,ccp,,,,,,' name='പിന്നീട്'>
+	))
+5	((	NP	<fs name='NP3' drel='k1:VGF'>
+5.1	നാളികേരഉത്പാദനവര്‍ധന	N__NN	<fs af='നാളികേരഉത്പാദനവര്ദ്ധന,n,ne,sg,3,d,0,0' name='നാളികേരഉത്പാദനവര്‍ധന'>
+	))
+6	((	VGF	<fs af=',,,,,,,' name='VGF' voicetype='active' stype='declarative' drel='ccof:CCP2'>
+6.1	ഉണ്ടാകും	V__VM__VF	<fs af='ഉണ്ടാക്,v,,,,,ഉം,um' name='ഉണ്ടാകും'>
+	))
+7	((	CCP	<fs af=',,,,,,,' name='CCP2'>
+7.1	എന്ന്	CC_CCS_UT	<fs af='എന്ന്,ccp,,,,,,' name='എന്ന്'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGF2'>
+8.1	പഠനങ്ങള്‍	N_NN	<fs af='പഠന,n,ne,sg,3,d,കള്‍,kaLu' name='പഠനങ്ങള്‍'>
+	))
+9	((	VGF	<fs af=',,,,,,,' name='VGF2' voicetype='active' stype='declarative' drel='ccof:CCP2'>
+9.1	രേഖപ്പെടുത്തിയിട്ടുണ്ട്	V_VM_VF	<fs af='രേഖപ്പെടുത്ത്,v,,,,,ഇഇട്ട്ഉണ്ട്,iyiTTuNTu' name='രേഖപ്പെടുത്തിയിട്ടുണ്ട്'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:CCP2'>
+10.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='11'>
+1	((	NP	<fs name='NP' drel='k7:VGF'>
+1.1	*	RD__SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	ഇതില്‍	PR_PRP	<fs af='ഇത്,pn,ne,sg,3,d,ഇല്‍,ilu' name='ഇതില്‍'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	ആല്‍ക്കഹോളിന്റെ	N__NN	<fs af='ആല്‍ക്കഹോള്‍,n,ne,sg,3,d,ടെ,nRE' name='ആല്‍ക്കഹോളിന്റെ'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	അളവ്	N__NN	<fs af='അളവ്,n,ne,sg,3,d,0,0' name='അളവ്'>
+	))
+4	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGF'>
+4.1	തീരേ	RB	<fs af='തീരെ,adv,,,,,,' name='തീരേ'>
+	))
+5	((	VGF	<fs af=',,,,,,,' name='VGF' drel='ccof:CCP'>
+5.1	ഇല്ല	V_VM_VF	<fs af='ഇല്ല,v,,,,,,' name='ഇല്ല'>
+	))
+6	((	CCP	<fs name='CCP'>
+6.1	എന്നാല്‍	CC_CCS	<fs af='എന്നാല്‍,avy,,,,,,' name='എന്നാല്‍'>
+6.2	,	RD_PUNC	<fs af='&comma,punc,,,,,,' name=','>
+	))
+7	((	VGNF	<fs drel='vmod:VGNF2' name='VGNF'>
+7.1	ശേഖരിച്ച്	V_VM_VNF	<fs af='ശേഖരിച്ച്,v,,,,,,' name='ശേഖരിച്ച്'>
+	))
+8	((	VGNF	<fs name='VGNF2' drel='vmod:VGINF'>
+8.1	കഴിഞ്ഞത്	V__VM__VNF	<fs af='കഴി,v,,,,,ഞ്ഞ,NJatu' Participles='yes' Participles_m='അ' Nominal='yes' Nominal_m='ത്' name='കഴിഞ്ഞത്'>
+8.2	മുതല്‍	PSP	<fs af='മുതല്‍,psp,,,,,,' name='മുതല്‍'>
+	))
+9	((	VGINF	<fs drel='vmod:VGF2' name='VGINF'>
+9.1	പുളിക്കാന്‍	V_VM_VINF	<fs af='പുളിക്,v,,,,,,An' Participles='yes' Participles_m='ആന്‍' name='പുളിക്കാന്‍'>
+	))
+10	((	VGF	<fs name='VGF2' drel='ccof:CCP'>
+10.1	തുടങ്ങും	V_VM_VF	<fs af='തുടങ്ങും,v,,,,,,' name='തുടങ്ങും'>
+	))
+11	((	BLK	<fs name='BLK' drel='rsym:CCP'>
+11.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='13'>
+1	((	CCP	<fs name='CCP' drel='ccof:VGF'>
+1.1	അതുകൊണ്ട്	CC_CCS	<fs af='അത്കൊണ്ട്,ccp,,,,,,' name='അതുകൊണ്ട്'>
+	))
+2	((	NP	<fs name='NP' drel='k1:VGINF'>
+2.1	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+3	((	VGINF	<fs af=',,,,,,,' drel='nmod:NP2' name='VGINF'>
+3.1	ദുരുപയോഗപ്പെടുത്താന്‍	V_VM_VINF	<fs af='ദുരുപയോഗപ്പെടുത്ത്,v,,,,,ആന്‍,An' name='ദുരുപയോഗപ്പെടുത്താന്‍'>
+	))
+4	((	NP	<fs name='NP2' drel='pof:VGF'>
+4.1	സാധ്യത	N_NN	<fs af='സാധ്യത,n,ne,sg,3,d,0,0' name='സാധ്യത'>
+	))
+5	((	VGF	<fs name='VGF'>
+5.1	ഉണ്ട്	V_VM_VF	<fs af='ഉണ്ട്,v,,,,,,' name='ഉണ്ട്'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+6.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='14'>
+1	((	CCP	<fs name='CCP' drel='ccof:VGF'>
+1.1	അതിനാല്‍	CC_CCS	<fs af='അതിനാല്,ccp,,,,,,' name='അതിനാല്‍'>
+	))
+2	((	NP	<fs name='NP' drel='ccof:NULL__CCP'>
+2.1	ഉത്പാദനവും	N_NN	<fs af='ഉത്പാദന,n,ne,sg,3,d,,vum' Conjunction='yes' Conjunction_m='ഉം' name='ഉത്പാദനവും'>
+	))
+3	((	NULL__CCP	<fs af=',,,,,,,' mtype='gap' troot='ഉം' name='NULL__CCP' dmrel='k1:VGF'>
+3.1	NULL	CC	<fs af=',,,,,,,' name='NULL'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='ccof:NULL__CCP'>
+4.1	സംസ്‌കരണവും	N_NN	<fs af='സംസ്‌കരണ,n,ne,sg,3,d,,vum' Conjunction='yes' Conjunction_m='ഉം' name='സംസ്‌കരണവും'>
+	))
+5	((	NP	<fs name='NP3' drel='k7:VGF'>
+5.1	കര്‍ശനമായ	JJ	<fs af='കര്‍ശനമായ,adj,,,,,,' name='കര്‍ശനമായ'>
+5.2	നിയമ	N_NN	<fs af='നിയമ,n,ne,sg,3,d,0,0' name='നിയമ'>
+5.3	മേല്നോട്ടത്തില്‍	N_NN	<fs af='മേല്നോട്ട,n,ne,sg,3,d,ഇല്‍,il' name='മേല്നോട്ടത്തില്‍'>
+	))
+6	((	VGF	<fs af=',,,,,,,' name='VGF'>
+6.1	ആയിരിക്കും	V_VM_VF	<fs af='ആയിരിക്കും,v,,,,,,' name='ആയിരിക്കും'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+7.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='15'>
+1	((	NP	<fs name='NP' drel='k1:VGINF'>
+1.1	*	RD_PUNC	<fs af='*,sym,,,,,,' name='*'>
+1.2	സംസ്‌കരിച്ച	JJ	<fs af='സംസ്കരിച്ച,adj,,,,,,' name='സംസ്‌കരിച്ച'>
+1.3	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k1u:VGINF'>
+2.1	ഒരു	QT__QTF	<fs af='ഒരു,qtf,,,,,,' name='ഒരു'>
+2.2	വര്‍ഷത്തോളം	N_NN	<fs af='വര്ഷ,n,,,,,ഓളം,ttOLam' name='വര്‍ഷത്തോളം'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGNF'>
+3.1	കേട്	N_NN	<fs af='കേട്,n,ne,sg,3,d,0,0' name='കേട്'>
+	))
+4	((	VGNF	<fs drel='vmod:VGINF' name='VGNF'>
+4.1	കൂടാതെ	V__VM__VNF	<fs af='കൂട്,v,,,,,,' Participles='yes' Participles_m='ആതെ' name='കൂടാതെ'>
+	))
+5	((	VGINF	<fs af=',,,,,,,' drel='vmod:VGF' name='VGINF'>
+5.1	സൂക്ഷിച്ചുവെക്കാന്‍	V_VM_VINF	<fs af='സൂക്ഷി,v,,,,,ച്ചുവയ്ആന്,ccuvaykkAn' name='സൂക്ഷിച്ചുവെക്കാന്‍'>
+	))
+6	((	VGF	<fs af=',,,,,,,' name='VGF'>
+6.1	സാധിക്കും	V_VM_VF	<fs af='സാധിക്ക്,v,,,,,ഉം,um' name='സാധിക്കും'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+7.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='16'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	*	RD__SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	ജലസേചനം	N_NN	<fs af='ജലസേചനം,n,ne,sg,3,d,0,0' name='ജലസേചനം'>
+	))
+2	((	VGNF	<fs af=',,,,,,,' drel='nmod__relc:NP2' name='VGNF'>
+2.1	ഉള്ള	V_VM_VNF	<fs af='ഉള്,v,,,,,,a' name='ഉള്ള' Participles='yes' Participles_m='അ'>
+	))
+3	((	NP	<fs name='NP2' drel='k7:VGF'>
+3.1	തെങ്ങുകളില്‍	N_NN	<fs af='തെങ്ങ്,n,ne,sg,3,d,കള്ഇല്,kaLilu' name='തെങ്ങുകളില്‍'>
+	))
+4	((	NP	<fs name='NP3' drel='k1:VGF'>
+4.1	കൂടുതല്‍	QT_QTF	<fs af='കൂടുതല്‍,qtf,,,,,,' name='കൂടുതല്‍'>
+4.2	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+5	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+5.1	ലഭിക്കും	V_VM_VF	<fs af='ലഭിക്ക,v,,,,,ഉം,kkum' name='ലഭിക്കും'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+6.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='17'>
+1	((	NP	<fs name='NP' drel='k7:VGF'>
+1.1	വരള്‍ച്ച	JJ	<fs af='വരള്‍ച്ച,adj,,,,,,' name='വരള്‍ച്ച'>
+1.2	മാസങ്ങളില്‍	N_NN	<fs af='മാസ,n,ne,pl,3,d,കള്ഇല്,NgaLilu' name='മാസങ്ങളില്‍'>
+	))
+2	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+2.1	കുറയും	V_VM_VF	<fs af='കുറയ്,v,,,,,ഉം,yum' name='കുറയും'>
+	))
+3	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+3.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='18'>
+1	((	NP	<fs name='NP' drel='k1u:VGF'>
+1.1	*	RD__SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	കുള്ളന്‍	JJ	<fs af='കുള്ളന്‍,adj,,,,,,' name='കുള്ളന്‍'>
+1.3	ഇനങ്ങളേക്കാള്‍	N_NN	<fs af='ഇന,n,ne,pl,3,d,കള്എക്കാള്,NgaLekkALu' name='ഇനങ്ങളേക്കാള്‍'>
+	))
+2	((	NP	<fs name='NP2' drel='k5:VGF'>
+2.1	നെടിയ	JJ	<fs af='നെടിയ,adj,,,,,,' name='നെടിയ'>
+2.2	ഇനങ്ങളില്‍	N_NN	<fs af='ഇന,n,,,,,കള്ഇല്,kaLilu' name='ഇനങ്ങളില്‍'>
+2.3	നിന്ന്	PSP	<fs af='നിന്ന്,psp,,,,,,' name='നിന്ന്'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	കൂടുതല്‍	QT_QTF	<fs af='കൂടുതല്,qtf,,,,,,' name='കൂടുതല്‍'>
+3.2	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+4	((	VGF	<fs af=',,,,,,,' voicetype='active' stype='declarative' name='VGF'>
+4.1	ലഭിക്കും	V_VM_VF	<fs af='ലഭിക്ക്,v,,,,,ഉം,um' name='ലഭിക്കും'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='19'>
+1	((	CCP	<fs af=',,,,,,,' name='CCP' drel='ccof:NP'>
+1.1	എന്നാല്‍	CC_CCS	<fs af='എന്നാല്,ccp,,,,,,' name='എന്നാല്‍'>
+1.2	,	RD_PUNC	<fs af=',,punc,,,,,' name=','>
+	))
+2	((	NP	<fs name='NP' drel='r6:NP2'>
+2.1	തെങ്ങിന്റെ	N_NN	<fs af='തെങ്ങ്,n,ne,sg,3,d,ടെ,NRe' name='തെങ്ങിന്റെ'>
+	))
+3	((	NP	<fs name='NP2' drel='ccof:NULL__CCP'>
+3.1	അധികോത്പാദനശേഷിയും	N__NN	<fs af='അധികോത്പാദനശേഷി,n,ne,sg,3,d,,yum' Conjunction='yes' Conjunction_m='ഉം' name='അധികോത്പാദനശേഷിയും'>
+	))
+4	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' mtype='gap' troot='ഉം' dmrel='k1:VGF'>
+4.1	NULL	CC	<fs af=',,,,,,,' name='NULL'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='ccof:NULL__CCP'>
+5.1	കുറഞ്ഞ	JJ	<fs af='കുറഞ്ഞ,adj,,,,,,' name='കുറഞ്ഞ'>
+5.2	പ്രായവും	N_NN	<fs af='പ്രായ,n,ne,sg,3,d,,vum' Conjunction='yes' Conjunction_m='ഉം' name='പ്രായവും'>
+	))
+6	((	NP	<fs name='NP4' drel='ccof:NULL__CCP'>
+6.1	നല്ല	JJ	<fs af='നല്ല,adj,,,,,,' name='നല്ല'>
+6.2	പരിചരണവും	N_NN	<fs af='പരിചരണ,n,ne,sg,3,d,,vum' Conjunction='yes' Conjunction_m='ഉം' name='പരിചരണവും'>
+	))
+7	((	NP	<fs name='NP5' drel='k2:VGF'>
+7.1	കൂടുതല്‍	QT_QTF	<fs af='കൂടുതല്‍,qtf,,,,,,' name='കൂടുതല്‍'>
+7.2	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP6' drel='pof:VGF'>
+8.1	ലഭ്യം	N_NN	<fs af='ലഭ്യം,n,ne,sg,3,d,0,0' name='ലഭ്യം'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+9.1	ആക്കും	V_VM_VF	<fs af='ആക്ക്,v,,,,,,um' name='ആക്കും'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+10.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='20'>
+1	((	NP	<fs name='NP' drel='k7t:VGF'>
+1.1	*	RD__SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	ഒരു	QT_QTF	<fs af='ഒരു,qtf,,,,,,' name='ഒരു'>
+1.3	മാസം	N_NN	<fs af='മാസം,n,ne,sg,3,d,0,0' name='മാസം'>
+1.4	കൊണ്ട്	PSP	<fs af='കൊണ്ട്,psp,,,,,,' name='കൊണ്ട്'>
+	))
+2	((	NP	<fs name='NP2' drel='k5:VGF'>
+2.1	ഒരു	QT__QTF	<fs af='ഒരു,qtf,,,,,,' name='ഒരു2'>
+2.2	പൂക്കുലയില്‍	N_NN	<fs af='പൂക്കുല,n,ne,sg,3,d,ഇല്‍,yilu' name='പൂക്കുലയില്‍'>
+2.3	നിന്ന്	PSP	<fs af='നിന്ന്,psp,,,,,,' name='നിന്ന്'>
+	))
+3	((	NP	<fs name='NP3' drel='k2:VGF'>
+3.1	50	QT_QTC	<fs af='50,num,,,,,,' name='50'>
+3.2	ലിറ്റര്‍	N_NN	<fs af='ലിറ്റര്‍,n,ne,sg,3,d,0,0' name='ലിറ്റര്‍'>
+	))
+4	((	NP	<fs name='NP4' drel='k1:VGF'>
+4.1	നീര	N_NN	<fs af='നീര,n,ne,sg,3,d,0,0' name='നീര'>
+	))
+5	((	VGF	<fs af=',,,,,,,' name='VGF' drel='ccof:CCP'>
+5.1	ലഭിക്കും	V_VM_VF	<fs af='ലഭിക്കു്,v,,,,,ഉം,um' name='ലഭിക്കും'>
+	))
+6	((	CCP	<fs af=',,,,,,,' name='CCP' drel='ccof:VGF2'>
+6.1	എന്ന്	CC_CCS	<fs af='എന്ന്,ccp,,,,,,' name='എന്ന്'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2'>
+7.1	കണക്കാക്കിയിട്ടുണ്ട്	V_VM_VF	<fs af='കണക്കാക്ക്,v,,,,,ഇഇട്ട്ഉണ്ട്,iyiTTuNTu' name='കണക്കാക്കിയിട്ടുണ്ട്'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF2'>
+8.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='21'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	*	RD_SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	നാളികേര	N_NN	<fs af='നാളികേര,n,ne,sg,3,d,0,0' name='നാളികേര'>
+1.3	കര്‍ഷകരുടെ	N_NN	<fs af='കര്‍ഷകന്,n,m,sg,3,d,അര്ഉടെ,ruTe' name='കര്‍ഷകരുടെ'>
+	))
+2	((	NP	<fs name='NP2' drel='k4:VGF'>
+2.1	കൂട്ടായ്മകള്‍ക്ക്	N_NN	<fs af='കൂട്ടായ്മ,n,ne,pl,3,d,കള്‍ക്ക്,kaLkku' name='കൂട്ടായ്മകള്‍ക്ക്'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	നീരയുടെ	N_NN	<fs af='നീര,n,ne,sg,3,d,ഉടെ,yuTe' name='നീരയുടെ'>
+	))
+4	((	NP	<fs name='NP4' drel='ccof:NULL__CCP'>
+4.1	ഉത്പാദനത്തിലും	N_NN	<fs af='ഉത്പാദന,n,ne,sg,3,d,ഇല്‍,ttilum' Conjunction='yes' Conjunction_m='ഉം' name='ഉത്പാദനത്തിലും'>
+	))
+5	((	NP	<fs name='NP5' drel='ccof:NULL__CCP'>
+5.1	സംസ്‌കരണത്തിലും	N_NN	<fs af='സംസ്‌കരണ,n,ne,sg,3,d,ഇല്‍,ttilum' Conjunction='yes' Conjunction_m='ഉം' name='സംസ്‌കരണത്തിലും'>
+	))
+6	((	NP	<fs name='NP6' drel='ccof:NULL__CCP'>
+6.1	വിപണനത്തിലും	N_NN	<fs af='വിപണന,n,ne,sg,3,d,ഇല്‍,ttilum' Conjunction='yes' Conjunction_m='ഉം' name='വിപണനത്തിലും'>
+	))
+7	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' mtype='gap' troot='ഉം' dmrel='k7:VGF'>
+7.1	NULL	CC	<fs af=',,,,,,,' name='NULL'>
+	))
+8	((	NP	<fs name='NP7' drel='k1:VGINF'>
+8.1	കൂടുതല്‍	QT_QTF	<fs af='കൂടുതല്‍,qtf,,,,,,' name='കൂടുതല്‍'>
+8.2	നേട്ടങ്ങള്‍	N_NN	<fs af='നേട്ട,n,ne,pl,3,d,കള്‍,NGaL' name='നേട്ടങ്ങള്‍'>
+	))
+9	((	VGINF	<fs drel='vmod:VGF' name='VGINF'>
+9.1	ഉണ്ടാക്കാന്‍	V_VM_VINF	<fs af='ഉണ്ടാക്ക്,v,,,,,,An' Participles='yes' Participles_m='ആന്‍' name='ഉണ്ടാക്കാന്‍'>
+	))
+10	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+10.1	സാധിക്കും	V_VM_VF	<fs af='സാധി,v,,,,,ഉം,ykkum' name='സാധിക്കും'>
+	))
+11	((	BLK	<fs name='BLK' drel='rsym:VGF'>
+11.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='22'>
+1	((	NP	<fs name='NP' drel='ccof:NULL__CCP'>
+1.1	*	RD_SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	ഐസ്‌ക്രീം	N_NN	<fs af='ഐസ്‌ക്രീം,n,ne,sg,3,d,0,0' name='ഐസ്‌ക്രീം'>
+1.3	,	RD_PUNC	<fs af='&comma,punc,,,,,,' name=','>
+	))
+2	((	NP	<fs name='NP2' drel='ccof:NULL__CCP'>
+2.1	ബിസ്‌കറ്റ്	N_NN	<fs af='ബിസ്‌കറ്റ്,n,ne,sg,3,d,0,0' name='ബിസ്‌കറ്റ്'>
+2.2	,	RD_PUNC	<fs af='&comma,punc,,,,,,' name=',2'>
+	))
+3	((	NP	<fs name='NP3' drel='ccof:NULL__CCP'>
+3.1	ചോക്കലേറ്റ്	N_NN	<fs af='ചോക്കലേറ്റ്,n,ne,sg,3,d,0,0' name='ചോക്കലേറ്റ്'>
+3.2	തുടങ്ങിയ	RP_CL	<fs af='തുടങ്ങിയ,cl,,,,,,' name='തുടങ്ങിയ'>
+	))
+4	((	NULL__CCP	<fs af=',,,,,,,' name='NULL__CCP' dmrel='nmod:NP4'>
+4.1	NULL	CC	<fs af=',,,,,,,' name='NULL'>
+	))
+5	((	NP	<fs name='NP4' drel='k1:VGF'>
+5.1	മൂല്യവര്‍ധിത	JJ	<fs af='മൂല്യവര്‍ധിത,adj,,,,,,' name='മൂല്യവര്‍ധിത'>
+5.2	ഉത്പന്നങ്ങളും	N_NN	<fs af='ഉത്പന്ന,n,ne,pl,3,d,കള്‍,NGaLum' Inclusive='yes' Inclusive_m='ഉം' name='ഉത്പന്നങ്ങളും'>
+	))
+6	((	NP	<fs name='NP5' drel='k5:VGF'>
+6.1	നീരയില്‍	N_NN	<fs af='നീര,n,ne,sg,3,d,ഇല്‍,yil' name='നീരയില്‍'>
+6.2	നിന്ന്	PSP	<fs af='നിന്ന്,psp,,,,,,' name='നിന്ന്'>
+	))
+7	((	VGF	<fs name='VGF'>
+7.1	ഉത്പാദിപ്പിക്കാം	V_VM_VF	<fs af='ഉത്പാദിപ്പി,v,,,,,ആന്‍,kkAM' name='ഉത്പാദിപ്പിക്കാം'>
+	))
+8	((	BLK	<fs name='BLK' drel='rsym:VGF'>
+8.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+<Sentence id='23'>
+1	((	NP	<fs name='NP' drel='k1:VGNF'>
+1.1	*	RD_SYM	<fs af='*,sym,,,,,,' name='*'>
+1.2	ലഹരി	N_NN	<fs af='ലഹരി,n,ne,sg,3,d,0,0' name='ലഹരി'>
+	))
+2	((	RBP	<fs name='RBP' drel='adv:VGNF'>
+2.1	തീരേ	RB	<fs af='തീരേ,adv,,,,,,' name='തീരേ'>
+	))
+3	((	VGNF	<fs drel='nmod__relc:NP2' name='VGNF'>
+3.1	ഇല്ലാത്ത	V_VM_VNF	<fs af='ഇല്ല,v,,,,,,aTTa' Participles='yes' Participles_m='ആത്ത' name='ഇല്ലാത്ത'>
+	))
+4	((	NP	<fs name='NP2' drel='k1s:VGF'>
+4.1	ഈ	DM	<fs af='ഈ,dem,,,,,,' name='ഈ'>
+4.2	സമ്പൂര്‍ണ	JJ	<fs af='സമ്പൂര്‍ണ,adj,,,,,,' name='സമ്പൂര്‍ണ'>
+4.3	ആരോഗ്യപാനീയം	N_NN	<fs af='ആരോഗ്യപാനീയം,n,ne,sg,3,d,0,0' name='ആരോഗ്യപാനീയം'>
+	))
+5	((	NP	<fs name='NP3' drel='r6:NP4'>
+5.1	കേരളത്തിന്റെ	N_NNP	<fs af='ലഹരി,n,ne,sg,3,d,0,0' name='കേരളത്തിന്റെ'>
+	))
+6	((	NP	<fs name='NP4' drel='k4:VGF'>
+6.1	സാമ്പത്തിക	JJ	<fs af='സാമ്പത്തിക,adj,,,,,,' name='സാമ്പത്തിക'>
+6.2	ആരോഗ്യത്തിനും	N_NN	<fs af='ആരോഗ്യ,n,ne,sg,3,d,ഉ്,ttinum' Inclusive='yes' Inclusive_m='ഉം' name='ആരോഗ്യത്തിനും'>
+	))
+7	((	NP	<fs name='NP5' drel='k2:VGF'>
+7.1	വന്‍	JJ	<fs af='വന്‍,adj,,,,,,' name='വന്‍'>
+7.2	നേട്ടങ്ങള്‍	N_NN	<fs af='നേട്ട,n,ne,pl,3,d,കള്‍,NGaL' name='നേട്ടങ്ങള്‍'>
+	))
+8	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+8.1	ഉണ്ടാക്കും	V_VM_VF	<fs af='ഉണ്ടാക്ക്,v,,,,,ഉം,um' name='ഉണ്ടാക്കും'>
+	))
+9	((	CCP	<fs name='CCP' drel='k1:VGF2'>
+9.1	എന്ന്	CC_CCS_UT	<fs af='എന്ന്,avy,,,,,,' name='എന്ന്'>
+	))
+10	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2'>
+10.1	ആണ്	V_VM_VF	<fs af='ആണ്,v,,,,,,' name='ആണ്'>
+	))
+11	((	VGNF	<fs name='VGNF2' drel='vmod-emph:VGF2'>
+11.1	പ്രതീക്ഷിക്കുന്നത്	V_VM_VNF	<fs af='പ്രതീക്ഷി,v,,,,,ഉന്ന,unnatu' Nominal='yes' Nominal_m='ത്' name='പ്രതീക്ഷിക്കുന്നത്'>
+	))
+12	((	BLK	<fs name='BLK' drel='rsym:VGF2'>
+12.1	.	RD_PUNC	<fs af='.,punc,,,,,,' name='.'>
+	))
+</Sentence>
+
+</document>

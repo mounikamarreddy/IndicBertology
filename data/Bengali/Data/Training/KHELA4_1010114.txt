@@ -1,0 +1,1263 @@
+<document id="">
+<head>
+
+</head>
+<Sentence id='1'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='nmod:NP2'>
+1.1	একের	N__NN	<fs name='একের'>
+1.2	পর	N__NST	<fs name='পর'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='nmod:NP3'>
+2.1	এক	QT__QTC	<fs name='এক'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:VGF'>
+3.1	ফোন	N__NN	<fs name='ফোন'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	এসে	V__VM	<fs name='এসে'>
+4.2	চলেছে	V__VAUX	<fs name='চলেছে'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	কোনও	QT__QTF	<fs name='কোনও'>
+1.2	কোনও	QT__QTF	<fs name='কোনও2'>
+1.3	ক্রিকেটার	N__NN	<fs name='ক্রিকেটার'>
+	))
+2	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+2.1	জানতে	V__VM	<fs name='জানতে'>
+2.2	চাইছেন	V__VAUX	<fs name='চাইছেন'>
+	))
+3	((	NULL__CCP	<fs mtype='gap' troot='যে' name='NULL__CCP' dmrel='k2:VGF'>
+3.1	NULL	CC__CCS	<fs name='NULL'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7p:VGNN'>
+4.1	দেশে	N__NN	<fs name='দেশে'>
+	))
+5	((	VGNN	<fs af=',,,,,,,' name='VGNN' drel='r6:NP3'>
+5.1	ফেরার	V__VM__VNG	<fs name='ফেরার'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:VGF2'>
+6.1	ব্যবস্থা	N__NN	<fs name='ব্যবস্থা'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGF2'>
+7.1	কী	DM__DMQ	<fs name='কী'>
+	))
+8	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:NULL__CCP'>
+8.1	হয়েছে	V__VM__VF	<fs name='হয়েছে'>
+	))
+9	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+9.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k7p:VGF'>
+1.1	দিল্লিতে	N__NNP	<fs name='দিল্লিতে'>
+	))
+2	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+2.1	যেতে	V__VM	<fs name='যেতে'>
+2.2	হবে	V__VAUX	<fs name='হবে'>
+2.3	,	RD__PUNC	<fs name=','>
+	))
+3	((	CCP	<fs af=',,,,,,,' name='CCP'>
+3.1	না	CC__CCD	<fs name='না'>
+	))
+4	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGF2'>
+4.1	একবার	RB	<fs name='একবার'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7p:VGF2'>
+5.1	বাড়ি	N__NN	<fs name='বাড়ি'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+6.1	ঘুরে	V__VM	<fs name='ঘুরে'>
+6.2	আসা	V__VAUX	<fs name='আসা'>
+6.3	যাবে	V__VAUX	<fs name='যাবে'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:CCP'>
+7.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	কেউ	PR__PRI	<fs name='কেউ'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k5:VGNN'>
+2.1	হোটেল	N__NN	<fs name='হোটেল'>
+2.2	থেকে	PSP	<fs name='থেকে'>
+	))
+3	((	VGNN	<fs af=',,,,,,,' name='VGNN' drel='k7t:VGF'>
+3.1	বেরিয়ে	V__VM	<fs name='বেরিয়ে'>
+3.2	যাওয়ার	V__VAUX	<fs name='যাওয়ার'>
+3.3	আগে	N__NST	<fs name='আগে'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='r6:NP4'>
+4.1	কোচের	N__NN	<fs name='কোচের'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGF'>
+5.1	অনুমতি	N__NN	<fs name='অনুমতি'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	চাইছেন	V__VM__VF	<fs name='চাইছেন'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+7.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='nmod:NP2'>
+1.1	তৃতীয়	QT__QTO	<fs name='তৃতীয়'>
+1.2	দিন	N__NN	<fs name='দিন'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7t:VGF'>
+2.1	সন্ধ্যায়	N__NN	<fs name='সন্ধ্যায়'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k7t:VGF'>
+3.1	খেলার	N__NN	<fs name='খেলার'>
+3.2	পরে	N__NST	<fs name='পরে'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF'>
+4.1	গোটা	QT__QTF	<fs name='গোটা'>
+4.2	টিম	N__NN	<fs name='টিম'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+5.1	বেরিয়ে	V__VM	<fs name='বেরিয়ে'>
+5.2	যায়	V__VAUX	<fs name='যায়'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP5' drel='rt:VGF'>
+6.1	ডিনারে	N__NN	<fs name='ডিনারে'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+7.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	অংশুমান	N__NNP	<fs name='অংশুমান'>
+1.2	গায়কোয়াড়	N__NNP	<fs name='গায়কোয়াড়'>
+	))
+2	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+2.1	যাননি	V__VM__VF	<fs name='যাননি'>
+	))
+3	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+3.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k7t:VGNF'>
+1.1	হাজার	QT__QTF	<fs name='হাজার'>
+1.2	ব্যস্ততার	N__NN	<fs name='ব্যস্ততার'>
+1.3	মাঝে	N__NST	<fs name='মাঝে'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGNF'>
+2.1	সময়	N__NN	<fs name='সময়'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='vmod:VGF'>
+3.1	করে	V__VM	<fs name='করে'>
+3.2	নিয়ে	V__VAUX	<fs name='নিয়ে'>
+3.3	,	RD__PUNC	<fs name=','>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='r6:NP4'>
+4.1	ঢাকা	N__NNP	<fs name='ঢাকা'>
+4.2	শেরাটন	N__NNP	<fs name='শেরাটন'>
+4.3	হোটেলের	N__NN	<fs name='হোটেলের'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='k7p:VGNF2'>
+5.1	ঘরে	N__NN	<fs name='ঘরে'>
+	))
+6	((	VGNF	<fs af=',,,,,,,' name='VGNF2' drel='vmod:VGF'>
+6.1	বসে	V__VM__VNF	<fs name='বসে'>
+	))
+7	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGF'>
+7.1	সম্ভবত	RB	<fs name='সম্ভবত'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1s:VGF'>
+8.1	কোচ	N__NN	<fs name='কোচ'>
+8.2	হিসাবে	PSP	<fs name='হিসাবে'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP6' drel='r6:JJP'>
+9.1	তাঁর	PR__PRP	<fs name='তাঁর'>
+	))
+10	((	JJP	<fs name='JJP' drel='nmod:NP7'>
+10.1	শেষ	JJ	<fs name='শেষ'>
+	))
+11	((	NP	<fs name='NP7' drel='k2:VGF'>
+11.1	একান্ত	JJ	<fs name='একান্ত'>
+11.2	সাক্ষাত্কারটি	N__NN	<fs name='সাক্ষাত্কারটি'>
+	))
+12	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+12.1	দিলেন	V__VM__VF	<fs name='দিলেন'>
+	))
+13	((	NP	<fs af=',,,,,,,' name='NP8' drel='k1:VGF'>
+13.1	অংশু	N__NNP	<fs name='অংশু'>
+	))
+14	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+14.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='8'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	প্রশ্ন	N__NN	<fs name='প্রশ্ন'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='হল' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k1s:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	RBP	<fs af=',,,,,,,' name='RBP' drel='k7t:VGF'>
+4.1	ইদানীং	RB	<fs name='ইদানীং'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP2' drel='nmod:NP3'>
+5.1	অধিনায়ক	N__NN	<fs name='অধিনায়ক'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP3' drel='ras-k1:VGF'>
+6.1	সৌরভ	N__NNP	<fs name='সৌরভ'>
+6.2	গঙ্গোপাধ্যায়ের	N__NNP	<fs name='গঙ্গোপাধ্যায়ের'>
+6.3	সঙ্গে	PSP	<fs name='সঙ্গে'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='r6:NP5'>
+7.1	আপনার	PR__PRP	<fs name='আপনার'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP5' drel='k7:VGF'>
+8.1	সম্পর্ক	N__NN	<fs name='সম্পর্ক'>
+8.2	নিয়ে	PSP	<fs name='নিয়ে'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP6' drel='k1:VGF'>
+9.1	অনেক	QT__QTF	<fs name='অনেক'>
+9.2	কথা	N__NN	<fs name='কথা'>
+	))
+10	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+10.1	উঠছে	V__VM__VF	<fs name='উঠছে'>
+	))
+11	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+11.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='9'>
+1	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='passive' name='VGF'>
+1.1	বলা	V__VM	<fs name='বলা'>
+1.2	হচ্ছে	V__VAUX	<fs name='হচ্ছে'>
+	))
+2	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k2:VGF'>
+2.1	,	CC__CCS	<fs name=','>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP' drel='r6:NP2'>
+3.1	দু'জনের	N__NN	<fs name='দু'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='r6v:VGF2'>
+4.1	সম্পর্কের	N__NN	<fs name='সম্পর্কের'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGF2'>
+5.1	খুব	RP__INTF	<fs name='খুব'>
+5.2	অবনতি	N__NN	<fs name='অবনতি'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+6.1	হয়েছে	V__VM__VF	<fs name='হয়েছে'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+7.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='10'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k2:VGF'>
+1.1	আসল	JJ	<fs name='আসল'>
+1.2	ঘটনাটা	N__NN	<fs name='ঘটনাটা'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='vmod:VGF'>
+2.1	কী	DM__DMQ	<fs name='কী'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='vmod:VGF'>
+3.1	একটু	QT__QTF	<fs name='একটু'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='interrogative' voicetype='active' name='VGF'>
+4.1	বলবেন	V__VM__VF	<fs name='বলবেন'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='11'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	অংশুমান	N__NNP	<fs name='অংশুমান'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='জানালো' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k2:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='ras-k1:VGF'>
+4.1	সৌরভের	N__NNP	<fs name='সৌরভের'>
+4.2	সঙ্গে	PSP	<fs name='সঙ্গে'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k4a:VGF'>
+5.1	আমার	PR__PRP	<fs name='আমার'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF'>
+6.1	ব্যক্তিগত	JJ	<fs name='ব্যক্তিগত'>
+6.2	সম্পর্ক	N__NN	<fs name='সম্পর্ক'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='k7t:VGF'>
+7.1	কোনও	QT__QTF	<fs name='কোনও'>
+7.2	দিনই	N__NN	<fs name='দিনই'>
+	))
+8	((	JJP	<fs af=',,,,,,,' name='JJP' drel='k1s:VGF'>
+8.1	খারাপ	JJ	<fs name='খারাপ'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+9.1	ছিল	V__VM__VF	<fs name='ছিল'>
+9.2	না	RP__NEG	<fs name='না'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+10.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='12'>
+1	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGF'>
+1.1	সত্যিই	RB	<fs name='সত্যিই'>
+	))
+2	((	CCP	<fs af=',,,,,,,' name='CCP' drel='vmod:VGF'>
+2.1	যদি	CC__CCS	<fs name='যদি'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP' drel='r6:NP2'>
+3.1	আমাদের	PR__PRP	<fs name='আমাদের'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7:VGF'>
+4.1	দু'জনের	N__NN	<fs name='দু'>
+4.2	মধ্যে	N__NST	<fs name='মধ্যে'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:VGF'>
+5.1	সম্পর্কটা	N__NN	<fs name='সম্পর্কটা'>
+	))
+6	((	JJP	<fs af=',,,,,,,' name='JJP' drel='k1s:VGF'>
+6.1	খারাপ	JJ	<fs name='খারাপ'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='rs:CCP2'>
+7.1	থাকত	V__VM__VF	<fs name='থাকত'>
+7.2	,	RD__PUNC	<fs name=','>
+	))
+8	((	CCP	<fs af=',,,,,,,' name='CCP2' drel='rt:VGF2'>
+8.1	তাহলে	CC__CCS	<fs name='তাহলে'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP4' drel='vmod:VGF2'>
+9.1	কি	DM__DMQ	<fs name='কি'>
+9.2	আর	RP__RPD	<fs name='আর'>
+	))
+10	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1:VGF2'>
+10.1	আমি	PR__PRP	<fs name='আমি'>
+	))
+11	((	NP	<fs af=',,,,,,,' name='NP6' drel='r6:NP7'>
+11.1	ভারতীয়	JJ	<fs name='ভারতীয়'>
+11.2	কোচের	N__NN	<fs name='কোচের'>
+	))
+12	((	NP	<fs af=',,,,,,,' name='NP7' drel='k2:VGF2'>
+12.1	দায়িত্বটা	N__NN	<fs name='দায়িত্বটা'>
+	))
+13	((	RBP	<fs af=',,,,,,,' name='RBP2' drel='adv:VGF2'>
+13.1	আবার	RB	<fs af=',,,,,,,' name='আবার'>
+	))
+14	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2'>
+14.1	নিতাম	V__VM__VF	<fs name='নিতাম'>
+	))
+15	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF2'>
+15.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='13'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k2:VGNF'>
+1.1	একটা	QT__QTF	<fs name='একটা'>
+1.2	দলকে	N__NN	<fs name='দলকে'>
+	))
+2	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGNF'>
+2.1	ভাল	RB	<fs name='ভাল'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='vmod:NULL__VGF'>
+3.1	খেলতে	V__VM	<fs name='খেলতে'>
+3.2	হলে	V__VAUX	<fs name='হলে'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='ccof:CCP'>
+4.1	ক্যাপ্টেন	N__NN	<fs name='ক্যাপ্টেন'>
+	))
+5	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k7:VGNN'>
+5.1	আর	CC__CCD	<fs name='আর'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP3' drel='ccof:CCP'>
+6.1	কোচের	N__NN	<fs name='কোচের'>
+6.2	মধ্যে	N__NST	<fs name='মধ্যে'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGNN'>
+7.1	সুসম্পর্ক	N__NN	<fs name='সুসম্পর্ক'>
+	))
+8	((	VGNN	<fs af=',,,,,,,' name='VGNN' drel='k2:NULL__VGF'>
+8.1	থাকা	V__VM__VNG	<fs name='থাকা'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP5' drel='pof:NULL__VGF'>
+9.1	উচিত	N__NN	<fs name='উচিত'>
+	))
+10	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='ছিল' name='NULL__VGF'>
+10.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+11	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+11.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='14'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	আমি	PR__PRP	<fs name='আমি'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7t:VGF'>
+2.1	সব	QT__QTF	<fs name='সব'>
+2.2	সময়	N__NN	<fs name='সময়'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGINF'>
+3.1	সেটা	PR	<fs name='সেটা'>
+	))
+4	((	VGINF	<fs af=',,,,,,,' name='VGINF' drel='vmod:VGF'>
+4.1	রাখতে	V__VM__VINF	<fs name='রাখতে'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='pof:VGF'>
+5.1	চেষ্টা	N__NN	<fs name='চেষ্টা'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	করেছি	V__VM__VF	<fs name='করেছি'>
+	))
+7	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+7.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='15'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k4a:VGF'>
+1.1	আমার	PR__PRP	<fs name='আমার'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='pof:VGF'>
+2.1	মনে	N__NN	<fs name='মনে'>
+	))
+3	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+3.1	হয়	V__VM__VF	<fs af=',,,,,,,' name='হয়'>
+	))
+4	((	NULL__CCP	<fs mtype='gap' troot='যে' name='NULL__CCP' dmrel='k2:VGF'>
+4.1	NULL	CC__CCS	<fs name='NULL'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k7:VGF2'>
+5.1	এই	DM__DMD	<fs name='এই'>
+5.2	ব্যাপারে	N__NN	<fs name='ব্যাপারে'>
+	))
+6	((	CCP	<fs af=',,,,,,,' name='CCP' drel='vmod:VGF2'>
+6.1	যদি	CC__CCS	<fs name='যদি'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF2'>
+7.1	আপনারা	PR__PRP	<fs name='আপনারা'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP5' drel='k2:VGF2'>
+8.1	আর	QT__QTF	<fs name='আর'>
+8.2	কিছু	PR__PRI	<fs name='কিছু'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='rs:CCP2'>
+9.1	জানতে	V__VM	<fs name='জানতে'>
+9.2	চান	V__VAUX	<fs name='চান'>
+9.3	,	RD__PUNC	<fs name=','>
+	))
+10	((	CCP	<fs af=',,,,,,,' name='CCP2' drel='rt:VGF3'>
+10.1	তাহলে	CC__CCS	<fs name='তাহলে'>
+	))
+11	((	NP	<fs af=',,,,,,,' name='NP6' drel='k2g:VGF3'>
+11.1	সৌরভকে	N__NNP	<fs name='সৌরভকে'>
+	))
+12	((	NP	<fs af=',,,,,,,' name='NP7' drel='k2:VGF3'>
+12.1	প্রশ্ন	N__NN	<fs name='প্রশ্ন'>
+	))
+13	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF3' drel='ccof:NULL__CCP'>
+13.1	করতে	V__VM	<fs name='করতে'>
+13.2	পারেন	V__VAUX	<fs name='পারেন'>
+	))
+14	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+14.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='16'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	প্রশ্ন	N__NN	<fs name='প্রশ্ন'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='হয়েছে' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k1s:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='r6:NP3'>
+4.1	আপনার	PR__PRP	<fs name='আপনার'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:NP4'>
+5.1	মেয়াদ	N__NN	<fs name='মেয়াদ'>
+	))
+6	((	VGNN	<fs af=',,,,,,,' name='NP4' drel='k7t:VGF'>
+6.1	ফুরনোর	V__VM__VNG	<fs name='ফুরনোর'>
+6.2	আগেই	N__NST	<fs name='আগেই'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='r6:NP6'>
+7.1	বিদেশি	JJ	<fs name='বিদেশি'>
+7.2	কোচের	N__NN	<fs name='কোচের'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP6' drel='k2:VGF'>
+8.1	নাম	N__NN	<fs name='নাম'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP7' drel='pof:VGF'>
+9.1	ঘোষণা	N__NN	<fs name='ঘোষণা'>
+	))
+10	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='passive' name='VGF' drel='ccof:CCP'>
+10.1	করা	V__VM	<fs name='করা'>
+10.2	হয়েছে	V__VAUX	<fs name='হয়েছে'>
+	))
+11	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+11.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='17'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	বোর্ড	N__NN	<fs name='বোর্ড'>
+1.2	কর্তারা	N__NN	<fs name='কর্তারা'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGNF'>
+2.1	কোনও	QT__QTF	<fs name='কোনও'>
+2.2	রাখঢাক	N__NN	<fs name='রাখঢাক'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='vmod:VGF'>
+3.1	না	RP__NEG	<fs name='না'>
+3.2	করেই	V__VM__VNF	<fs name='করেই'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	বলে	V__VM	<fs name='বলে'>
+4.2	দিচ্ছেন	V__VAUX	<fs name='দিচ্ছেন'>
+	))
+5	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k2:VGF'>
+5.1	,	CC__CCS	<fs name=','>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP3' drel='r6:NP4'>
+6.1	সৌরভ-সচিনদের	N__NNP	<fs name='সৌরভ-সচিনদের'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='rh:VGF2'>
+7.1	সুপারিশেই	N__NN	<fs name='সুপারিশেই'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP5' drel='k2:VGF2'>
+8.1	বিদেশি	JJ	<fs name='বিদেশি'>
+8.2	কোচ	N__NN	<fs name='কোচ'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='passive' name='VGF2' drel='ccof:CCP'>
+9.1	আনা	V__VM	<fs name='আনা'>
+9.2	হচ্ছে	V__VAUX	<fs name='হচ্ছে'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+10.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='18'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k4a:VGF'>
+1.1	আপনার	PR__PRP	<fs name='আপনার'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='vmod:VGF'>
+2.1	কী	DM__DMQ	<fs name='কী'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='pof:VGF'>
+3.1	মনে	N__NN	<fs name='মনে'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	হচ্ছে	V__VM__VF	<fs name='হচ্ছে'>
+	))
+5	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k1:VGF'>
+5.1	,	CC__CCS	<fs name=','>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF2'>
+6.1	ভারতীয়	JJ	<fs name='ভারতীয়'>
+6.2	বোর্ড	N__NN	<fs name='বোর্ড'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='ras-k1:VGF2'>
+7.1	আপনার	PR__PRP	<fs name='আপনার2'>
+7.2	সঙ্গে	PSP	<fs name='সঙ্গে'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP6' drel='k2:VGF2'>
+8.1	একটু	QT__QTF	<fs name='একটু'>
+8.2	খারাপ	JJ	<fs name='খারাপ'>
+8.3	ব্যবহার	N__NN	<fs name='ব্যবহার'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='interrogative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+9.1	করছে	V__VM__VF	<fs name='করছে'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+10.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='19'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	অংশু	N__NNP	<fs name='অংশু'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='বললো' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k2:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGF'>
+4.1	খারাপ	JJ	<fs name='খারাপ'>
+4.2	ব্যবহার	N__NN	<fs name='ব্যবহার'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:NULL__NP'>
+5.1	করছে	V__VM__VF	<fs name='করছে'>
+	))
+6	((	NULL__NP	<fs stype='declarative' voicetype='active' mtype='gap' troot='সেটা' name='NULL__NP' dmrel='k2:VGF2'>
+6.1	NULL	PR	<fs name='NULL2'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+7.1	বলব	V__VM__VF	<fs name='বলব'>
+	))
+8	((	RBP	<fs af=',,,,,,,' name='RBP' drel='sent-adv:VGF2'>
+8.1	কেন	RB__RBQ	<fs name='কেন'>
+	))
+9	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+9.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='20'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	আমি	PR__PRP	<fs name='আমি'>
+1.2	তো	RP__RPD	<fs name='তো'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7t:VGF'>
+2.1	আগেই	N__NST	<fs name='আগেই'>
+	))
+3	((	VGF	<fs stype='declarative' voicetype='active' name='VGF'>
+3.1	জানতাম	V__VM__VF	<fs name='জানতাম'>
+	))
+4	((	CCP	<fs name='CCP' drel='k2:VGF'>
+4.1	,	CC__CCS	<fs name=','>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGF2'>
+5.1	আমাকে	PR__PRP	<fs name='আমাকে'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k7t:VGF2'>
+6.1	সংক্ষিপ্ত	JJ	<fs name='সংক্ষিপ্ত'>
+6.2	সময়ের	N__NN	<fs name='সময়ের'>
+6.3	জন্য	PSP	<fs name='জন্য'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+7.1	আনা	V__VM	<fs name='আনা'>
+7.2	হচ্ছে	V__VAUX	<fs name='হচ্ছে'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+8.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='21'>
+1	((	CCP	<fs af=',,,,,,,' name='CCP'>
+1.1	আর	CC__CCD	<fs af=',,,,,,,' name='আর'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP' drel='r6:NP2'>
+2.1	সিনিয়র	JJ	<fs name='সিনিয়র'>
+2.2	প্লেয়ারদের	N__NN	<fs name='প্লেয়ারদের'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGF'>
+3.1	কথা	N__NN	<fs name='কথা'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='interrogative' voicetype='active' name='VGF' drel='ccof:CCP'>
+4.1	বলছেন	V__VM__VF	<fs name='বলছেন'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:CCP'>
+5.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='22'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	ওরা	PR__PRP	<fs name='ওরা'>
+	))
+2	((	CCP	<fs af=',,,,,,,' name='CCP' drel='vmod:VGF'>
+2.1	যদি	CC__CCS	<fs name='যদি'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGF'>
+3.1	বিদেশি	JJ	<fs name='বিদেশি'>
+3.2	কোচ	N__NN	<fs name='কোচ'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='rs:NULL__CCP'>
+4.1	চেয়ে	V__VM	<fs name='চেয়ে'>
+4.2	থাকে	V__VAUX	<fs name='থাকে'>
+4.3	,	RD__PUNC	<fs name=','>
+	))
+5	((	NULL__CCP	<fs mtype='gap' troot='তাহলে' name='NULL__CCP' dmrel='rt:NULL__VGF'>
+5.1	NULL	CC__CCS	<fs name='NULL'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:NULL__VGF'>
+6.1	সেটা	PR	<fs name='সেটা'>
+	))
+7	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='হল' name='NULL__VGF'>
+7.1	NULL	V__VM__VF	<fs name='NULL2'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP4' drel='r6:NP5'>
+8.1	ওদের	PR__PRP	<fs name='ওদের'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1s:NULL__VGF'>
+9.1	ব্যাপার	N__NN	<fs name='ব্যাপার'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+10.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='23'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	ওরা	PR__PRP	<fs name='ওরা'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGF'>
+2.1	বিদেশি	JJ	<fs name='বিদেশি'>
+2.2	কোচ	N__NN	<fs name='কোচ'>
+	))
+3	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+3.1	চেয়েছিল	V__VM__VF	<fs name='চেয়েছিল'>
+	))
+4	((	CCP	<fs af=',,,,,,,' name='CCP'>
+4.1	,	CC__CCD	<fs name=','>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+5.1	পেয়েছে	V__VM__VF	<fs name='পেয়েছে'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:CCP'>
+6.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='24'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	বোর্ড	N__NN	<fs name='বোর্ড'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='r6:NP3'>
+2.1	বিদেশি	JJ	<fs name='বিদেশি'>
+2.2	কোচের	N__NN	<fs name='কোচের'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGF'>
+3.1	নামও	N__NN	<fs name='নামও'>
+3.2	তো	RP__RPD	<fs name='তো'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='pof:VGF'>
+4.1	ঘোষণা	N__NN	<fs name='ঘোষণা'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+5.1	করেছে	V__VM__VF	<fs name='করেছে'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+6.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='25'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	আমি	PR__PRP	<fs name='আমি'>
+1.2	তো	RP__RPD	<fs name='তো'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='ras-k1:VGF'>
+2.1	সিনিয়রদের	N__NN	<fs name='সিনিয়রদের'>
+2.2	সঙ্গে	PSP	<fs name='সঙ্গে'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGF'>
+3.1	ঝগড়া	N__NN	<fs name='ঝগড়া'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	করতে	V__VM	<fs name='করতে'>
+4.2	পারি	V__VAUX	<fs name='পারি'>
+4.3	না	RP__NEG	<fs name='না'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='26'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF2'>
+1.1	বোর্ড	N__NN	<fs name='বোর্ড'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='nmod:NP3'>
+2.1	যা	PR__PRL	<fs name='যা'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGF'>
+3.1	সিদ্ধান্ত	N__NN	<fs name='সিদ্ধান্ত'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='nmod__relc:NULL__NP'>
+4.1	নিয়েছে	V__VM__VF	<fs name='নিয়েছে'>
+4.2	,	RD__PUNC	<fs name=','>
+	))
+5	((	NULL__NP	<fs mtype='gap' troot='তা' name='NULL__NP' dmrel='k2:VGF2'>
+5.1	NULL	PR	<fs name='NULL'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='vmod:VGF2'>
+6.1	ভেবে-চিন্তেই	N__NN	<fs name='ভেবে-চিন্তেই'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2'>
+7.1	নিয়েছে	V__VM__VF	<fs name='নিয়েছে2'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF2'>
+8.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='27'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	প্রশ্ন	N__NN	<fs name='প্রশ্ন'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='হল' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k1s:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7t:VGF'>
+4.1	দ্বিতীয়বার	N__NN	<fs name='দ্বিতীয়বার'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k7t:VGF'>
+5.1	যখন	PR__PRL	<fs name='যখন'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:VGF'>
+6.1	আপনি	PR__PRP	<fs name='আপনি'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='r6:NP6'>
+7.1	দলের	N__NN	<fs name='দলের'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP6' drel='k2:VGF'>
+8.1	দায়িত্ব	N__NN	<fs name='দায়িত্ব'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='nmod__relc:NULL__NP'>
+9.1	নেন	V__VM__VF	<fs name='নেন'>
+9.2	,	RD__PUNC	<fs name=','>
+	))
+10	((	NULL__NP	<fs mtype='gap' troot='তখন' name='NULL__NP' dmrel='k7t:VGF2'>
+10.1	NULL	PR	<fs name='NULL2'>
+	))
+11	((	NP	<fs af=',,,,,,,' name='NP7' drel='k1:VGF2'>
+11.1	ভারতীয়	JJ	<fs name='ভারতীয়'>
+11.2	ক্রিকেট	N__NN	<fs name='ক্রিকেট'>
+	))
+12	((	NP	<fs af=',,,,,,,' name='NP8' drel='k3:VGF2'>
+12.1	টালমাটাল	N__NN	<fs name='টালমাটাল'>
+12.2	অবস্থার	N__NN	<fs name='অবস্থার'>
+12.3	মধ্যে	N__NST	<fs name='মধ্যে'>
+12.4	দিয়ে	PSP	<fs name='দিয়ে'>
+	))
+13	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP'>
+13.1	চলেছে	V__VM__VF	<fs name='চলেছে'>
+	))
+14	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+14.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='28'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k5:VGNN'>
+1.1	এই	DM__DMD	<fs name='এই'>
+1.2	অবস্থা	N__NN	<fs name='অবস্থা'>
+1.3	থেকে	PSP	<fs name='থেকে'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGNN'>
+2.1	ভারতীয়	JJ	<fs name='ভারতীয়'>
+2.2	ক্রিকেটকে	N__NN	<fs name='ক্রিকেটকে'>
+	))
+3	((	VGNN	<fs af=',,,,,,,' name='VGNN' drel='r6:NP3'>
+3.1	টেনে	V__VM	<fs name='টেনে'>
+3.2	তোলার	V__VAUX	<fs name='তোলার'>
+	))
+4	((	NP	<fs name='NP3' drel='k7:NULL__VGF'>
+4.1	ব্যাপারে	N__NN	<fs name='ব্যাপারে'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:NULL__VGF'>
+5.1	আপনি	PR__PRP	<fs name='আপনি'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP5' drel='nmod:JJP'>
+6.1	কতটা	DM__DMQ	<fs name='কতটা'>
+	))
+7	((	JJP	<fs af=',,,,,,,' name='JJP' drel='k2:NULL__VGF'>
+7.1	সফল	JJ	<fs name='সফল'>
+	))
+8	((	NULL__VGF	<fs stype='interrogative' voicetype='active' mtype='gap' troot='হবেন' name='NULL__VGF'>
+8.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+9	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+9.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='29'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	অংশু	N__NNP	<fs name='অংশু'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='বললো' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k2:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='k4a:VGF'>
+4.1	আমার	PR__PRP	<fs name='আমার'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='pof:VGF'>
+5.1	মনে	N__NN	<fs name='মনে'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+6.1	হয়	V__VM__VF	<fs name='হয়'>
+	))
+7	((	CCP	<fs af=',,,,,,,' name='CCP2' drel='k2:VGF'>
+7.1	,	CC__CCS	<fs name=','>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGF2'>
+8.1	খুব	RP__INTF	<fs name='খুব'>
+8.2	খারাপ	JJ	<fs name='খারাপ'>
+8.3	কাজ	N__NN	<fs af=',,,,,,,' name='কাজ'>
+	))
+9	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2' drel='ccof:CCP2'>
+9.1	করিনি	V__VM__VF	<fs name='করিনি'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+10.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='30'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k7t:VGF'>
+1.1	প্রথম	QT__QTO	<fs name='প্রথম'>
+1.2	টুর্নামেন্টটাতে	N__NN	<fs name='টুর্নামেন্টটাতে'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k1:VGF'>
+2.1	আমরা	PR__PRP	<fs name='আমরা'>
+	))
+3	((	RBP	<fs af=',,,,,,,' name='RBP' drel='adv:VGF'>
+3.1	দুর্দান্ত	RB	<fs name='দুর্দান্ত'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	খেললাম	V__VM__VF	<fs name='খেললাম'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='31'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='ccof:CCP'>
+1.1	অস্ট্রেলিয়া	N__NNP	<fs name='অস্ট্রেলিয়া'>
+	))
+2	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k2u:VGF'>
+2.1	,	CC__CCD	<fs name=','>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP2' drel='ccof:CCP'>
+3.1	দক্ষিণ	N__NN	<fs name='দক্ষিণ'>
+3.2	আফ্রিকার	N__NNP	<fs name='আফ্রিকার'>
+3.3	মতো	PSP	<fs name='মতো'>
+	))
+4	((	JJP	<fs name='JJP' drel='nmod:NP3'>
+4.1	দুর্দান্ত	JJ	<fs name='দুর্দান্ত'>
+	))
+5	((	NP	<fs name='NP3' drel='nmod:NP4'>
+5.1	দুটো	QT__QTF	<fs name='দুটো'>
+	))
+6	((	NP	<fs name='NP4' drel='k2:VGF'>
+6.1	দলকে	N__NN	<fs name='দলকে'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+7.1	হারিয়েছি	V__VM__VF	<fs name='হারিয়েছি'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+8.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='32'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k7p:VGF'>
+1.1	শারজায়	N__NNP	<fs name='শারজায়'>
+	))
+2	((	RBP	<fs af=',,,,,,,' name='RBP' drel='sent-adv:VGF'>
+2.1	হয়তো	RB	<fs name='হয়তো'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2u:VGF'>
+3.1	প্রত্যাশা	N__NN	<fs name='প্রত্যাশা'>
+3.2	মতো	PSP	<fs name='মতো'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	খেলতে	V__VM	<fs name='খেলতে'>
+4.2	পারিনি	V__VAUX	<fs name='পারিনি'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='33'>
+1	((	CCP	<fs af=',,,,,,,' name='CCP'>
+1.1	কিন্তু	CC__CCS	<fs name='কিন্তু'>
+	))
+2	((	VGNN	<fs af=',,,,,,,' name='VGNN' drel='r6:NP'>
+2.1	ঘুরে	V__VM	<fs name='ঘুরে'>
+2.2	দাঁড়ানোর	V__VAUX	<fs name='দাঁড়ানোর'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+3.1	লড়াইটা	N__NN	<fs name='লড়াইটা'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='pof:VGF'>
+4.1	শুরু	N__NN	<fs name='শুরু'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+5.1	হয়েছে	V__VM__VF	<fs name='হয়েছে'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:CCP'>
+6.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='34'>
+1	((	NP	<fs name='NP' drel='ras-NEG:VGF'>
+1.1	বাংলাদেশের	N__NNP	<fs name='বাংলাদেশের'>
+1.2	বিরুদ্ধে	PSP	<fs name='বিরুদ্ধে'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGNF'>
+2.1	টেস্টটা	N__NN	<fs name='টেস্টটা'>
+	))
+3	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='vmod:VGNF2'>
+3.1	জিতে	V__VM__VNF	<fs name='জিতে'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='k2:VGNF2'>
+4.1	দায়িত্ব	N__NN	<fs name='দায়িত্ব'>
+	))
+5	((	VGNF	<fs af=',,,,,,,' name='VGNF2' drel='vmod:VGF'>
+5.1	ছাড়তে	V__VM	<fs name='ছাড়তে'>
+5.2	পারলে	V__VAUX	<fs name='পারলে'>
+	))
+6	((	JJP	<fs af=',,,,,,,' name='JJP' drel='adv:VGF'>
+6.1	আরও	QT__QTF	<fs name='আরও'>
+6.2	ভাল	JJ	<fs name='ভাল'>
+	))
+7	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+7.1	লাগবে	V__VM__VF	<fs name='লাগবে'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+8.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='35'>
+1	((	NP	<fs name='NP' drel='k1:NULL__VGF'>
+1.1	প্রশ্ন	N__NN	<fs name='প্রশ্ন'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='হল' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs name='CCP' drel='k1s:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	JJP	<fs af=',,,,,,,' name='JJP' drel='nmod:NP2'>
+4.1	বর্তমান	JJ	<fs name='বর্তমান'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7:NULL__VGF2'>
+5.1	ভারতীয়	JJ	<fs name='ভারতীয়'>
+5.2	দল	N__NN	<fs name='দল'>
+5.3	সম্পর্কে	PSP	<fs name='সম্পর্কে'>
+	))
+6	((	NP	<fs af=',,,,,,,' name='NP3' drel='nmod:NP4'>
+6.1	কী	DM__DMQ	<fs name='কী'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='k1:NULL__VGF2'>
+7.1	ধারণা	N__NN	<fs name='ধারণা'>
+	))
+8	((	NULL__VGF	<fs stype='interrogative' voicetype='active' mtype='gap' troot='আছে' name='NULL__VGF2' dmrel='ccof:CCP'>
+8.1	NULL	V__VM__VF	<fs name='NULL2'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP5' drel='k4a:NULL__VGF2'>
+9.1	আপনার	PR__PRP	<fs name='আপনার'>
+	))
+10	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+10.1	?	RD__PUNC	<fs name='?'>
+	))
+</Sentence>
+
+<Sentence id='36'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:NULL__VGF'>
+1.1	অংশু	N__NNP	<fs name='অংশু'>
+	))
+2	((	NULL__VGF	<fs stype='declarative' voicetype='active' mtype='gap' troot='বলল' name='NULL__VGF'>
+2.1	NULL	V__VM__VF	<fs name='NULL'>
+	))
+3	((	CCP	<fs af=',,,,,,,' name='CCP' drel='k2:NULL__VGF'>
+3.1	:	CC__CCS	<fs name='symColon'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7p:VGF'>
+4.1	এই	DM__DMD	<fs name='এই'>
+4.2	দলটায়	N__NN	<fs name='দলটায়'>
+	))
+5	((	NP	<fs name='NP3' drel='nmod:NP4'>
+5.1	বেশ	QT__QTF	<fs name='বেশ'>
+5.2	কয়েকজন	N__NN	<fs name='কয়েকজন'>
+	))
+6	((	NP	<fs name='NP4' drel='k1:VGF'>
+6.1	ভাল	JJ	<fs name='ভাল'>
+6.2	ক্রিকেটার	N__NN	<fs name='ক্রিকেটার'>
+	))
+7	((	VGF	<fs af=',,,,,,,' voicetype='active' name='VGF' drel='ccof:CCP'>
+7.1	আছে	V__VM__VF	<fs name='আছে'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:NULL__VGF'>
+8.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='37'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	আমরা	PR__PRP	<fs name='আমরা'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGF'>
+2.1	কয়েকটা	QT__QTF	<fs name='কয়েকটা'>
+2.2	নতুন	JJ	<fs name='নতুন'>
+2.3	ছেলেকে	N__NN	<fs name='ছেলেকে'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k7p:VGF'>
+3.1	দলে	N__NN	<fs name='দলে'>
+	))
+4	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+4.1	পেয়েছি	V__VM__VF	<fs name='পেয়েছি'>
+	))
+5	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+5.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='38'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k2:VGNF'>
+1.1	সব	QT__QTF	<fs af=',,,,,,,' name='সব'>
+	))
+2	((	VGNF	<fs af=',,,,,,,' name='VGNF' drel='vmod:VGF'>
+2.1	মিলিয়ে	V__VM__VNF	<fs af=',,,,,,,' name='মিলিয়ে'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGNN'>
+3.1	ভাল	JJ	<fs name='ভাল'>
+3.2	টিম	N__NN	<fs name='টিম'>
+	))
+4	((	VGNN	<fs af=',,,,,,,' name='VGNN' drel='r6:NP3'>
+4.1	হয়ে	V__VM	<fs name='হয়ে'>
+4.2	ওঠার	V__VAUX	<fs name='ওঠার'>
+	))
+5	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:VGF'>
+5.1	প্রতিশ্রুতি	N__NN	<fs name='প্রতিশ্রুতি'>
+	))
+6	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+6.1	আছে	V__VM__VF	<fs name='আছে'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP4' drel='k7:VGF'>
+7.1	এই	DM__DMD	<fs name='এই'>
+7.2	দলটার	N__NN	<fs name='দলটার'>
+7.3	মধ্যে	N__NST	<fs name='মধ্যে'>
+	))
+8	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+8.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='39'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k1:VGF'>
+1.1	বাংলাদেশ	N__NNP	<fs name='বাংলাদেশ'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k7t:VGF'>
+2.1	প্রথম	QT__QTO	<fs name='প্রথম'>
+2.2	ইনিংসে	N__NN	<fs name='ইনিংসে'>
+	))
+3	((	NP	<fs name='NP3' drel='ras-NEG:VGF'>
+3.1	আমাদের	PR__PRP	<fs name='আমাদের'>
+3.2	বিরুদ্ধে	PSP	<fs name='বিরুদ্ধে'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGF'>
+4.1	৪০০	QT__QTC	<fs name='৪০০'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+5.1	করে	V__VM	<fs name='করে'>
+5.2	ফেলেছে	V__VAUX	<fs name='ফেলেছে'>
+	))
+6	((	CCP	<fs af=',,,,,,,' name='CCP' drel='rh:VGF2'>
+6.1	বলে	CC__CCS	<fs name='বলে'>
+	))
+7	((	NP	<fs af=',,,,,,,' name='NP5' drel='k1:VGF2'>
+7.1	অনেকেই	PR__PRP	<fs name='অনেকেই'>
+	))
+8	((	NP	<fs af=',,,,,,,' name='NP6' drel='k2g:VGF2'>
+8.1	বোলারদের	N__NN	<fs name='বোলারদের'>
+	))
+9	((	NP	<fs af=',,,,,,,' name='NP7' drel='k2:VGF2'>
+9.1	দোষ	N__NN	<fs name='দোষ'>
+	))
+10	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF2'>
+10.1	দিচ্ছেন	V__VM__VF	<fs name='দিচ্ছেন'>
+	))
+11	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF2'>
+11.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='40'>
+1	((	CCP	<fs af=',,,,,,,' name='CCP'>
+1.1	কিন্তু	CC__CCS	<fs name='কিন্তু'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP' drel='r6:NP2'>
+2.1	এই	DM__DMD	<fs name='এই'>
+2.2	উইকেটটার	N__NN	<fs name='উইকেটটার'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP2' drel='k2:VGF'>
+3.1	কথাও	N__NN	<fs name='কথাও'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP3' drel='k7p:VGF'>
+4.1	মাথায়	N__NN	<fs name='মাথায়'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF' drel='ccof:CCP'>
+5.1	রাখবেন	V__VM__VF	<fs name='রাখবেন'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:CCP'>
+6.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+<Sentence id='41'>
+1	((	NP	<fs af=',,,,,,,' name='NP' drel='k7t:VGF'>
+1.1	প্রথম	QT__QTO	<fs name='প্রথম'>
+1.2	ইনিংসে	N__NN	<fs name='ইনিংসে'>
+	))
+2	((	NP	<fs af=',,,,,,,' name='NP2' drel='k5:VGF'>
+2.1	এই	DM__DMD	<fs name='এই'>
+2.2	উইকেট	N__NN	<fs name='উইকেট'>
+2.3	থেকে	PSP	<fs name='থেকে'>
+	))
+3	((	NP	<fs af=',,,,,,,' name='NP3' drel='k1:VGF'>
+3.1	বোলাররা	N__NN	<fs name='বোলাররা'>
+	))
+4	((	NP	<fs af=',,,,,,,' name='NP4' drel='k2:VGF'>
+4.1	কোনও	QT__QTF	<fs name='কোনও'>
+4.2	সাহায্যই	N__NN	<fs name='সাহায্যই'>
+	))
+5	((	VGF	<fs af=',,,,,,,' stype='declarative' voicetype='active' name='VGF'>
+5.1	পায়নি	V__VM__VF	<fs name='পায়নি'>
+	))
+6	((	BLK	<fs af=',,,,,,,' name='BLK' drel='rsym:VGF'>
+6.1	।	RD__PUNC	<fs name='।'>
+	))
+</Sentence>
+
+</document>

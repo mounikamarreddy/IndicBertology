@@ -1,0 +1,517 @@
+<document id="id_199987">
+<head>
+<title></title>            
+<caption></caption>            
+<language>Urdu</language>            
+<author>            
+<firstname></firstname>            
+<middlename></middlename>            
+<lastname></lastname>            
+</author>            
+<creation>            
+<raw_corpus creation_date="" institute_name="">            
+<annotated_corpus creation_date="07/25/2009" institute_name="IIIT-Hyderabad">            
+</creation>            
+<domain_name>News Articles </domain_name>            
+<distributor>LTRC, IIIT Hyderabad</distributor>            
+<source>The Siasat Daily</source>            
+<publication>            
+<place>Hyderabad</place>            
+<date>28/5/2004</date>            
+<address>Jawaharlal Nehru Road, Abids</address>            
+<type>Newspaper</type>            
+<publisher>            
+<name>Siasat</name>            
+<url>http://www.siasat.com/</url>            
+</publisher>            
+</publication>            
+<project_description>NSF Hindi/Urdu Dependency Treebanking Project</place>            
+<availability>            
+<format>CML/SSF</format>            
+</availability>            
+<byte_count>6686</byte_count>            
+<word_count>254</word_count>            
+<edition_number>1.0</edition_number>            
+<encoding_description>            
+<original_encoding>ISO 8859</format>            
+<new_encoding>Unicode UTF8</new_encoding>            
+</encoding_description>            
+<bibliography></bibliography>            
+<sentence_marker>.</sentence_marker>            
+<normalization>No</normalization>            
+<utility_name>cml_tags</utility_name>
+
+
+</head>
+<body>
+<tb number="1" segment="no" bullet="no">
+<foreign language="select" writingsystem="RTL"> </foreign>            
+<text>
+<Sentence id='1'>
+1	((	NP	<fs name='NP' drel='r6:NP2'>
+1.1	اسرائیل	NNP	<fs af='ایران,n,m,sg,3,o,0,0' posn='10' name='اسرائیل'>
+1.2	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='20' name='کے'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	محکمہ	NNC	<fs af='محکمہ,n,m,sg,3,d,0,0' posn='30' name='محکمہ'>
+2.2	سراغ	NNC	<fs af='سراغ,n,m,sg,3,d,0,0' posn='30' name='سراغ'>
+2.3	رسانی	NN	<fs af='رسانی,n,m,sg,3,o,0,0' posn='50' name='رسانی'>
+2.4	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='60' name='کے2'>
+	))
+3	((	NP	<fs name='NP3' drel='k1:VGF'>
+3.1	ایک	QC	<fs af='ایک,num,any,any,,any,,' posn='70' name='ایک'>
+3.2	اعلیٰ	JJC	<fs af='اعلیٰ,n,m,sg,,o,,' posn='80' name='اعلیٰ'>
+3.3	سطحی	JJ	<fs af='سطحی,adj,any,any,,o,,' posn='90' name='سطحی'>
+3.4	عہدیدار	NN	<fs af='عہدیدار,n,m,sg,3,o,0,0' posn='100' name='عہدیدار'>
+3.5	نے	PSP	<fs af='نے,psp,,,,,,' posn='110' name='نے'>
+	))
+4	((	NP	<fs name='NP4' drel='k7t:VGF'>
+4.1	آج	NN	<fs af='آج,n,m,sg,3,d,0,0' posn='120' name='آج'>
+	))
+5	((	NP	<fs name='NP5' drel='pof:VGF'>
+5.1	انتباہ	NN	<fs af='انتباہ,n,m,sg,3,d,0,0' posn='130' name='انتباہ'>
+	))
+6	((	VGF	<fs name='VGF'>
+6.1	دیا	VM	<fs af=''دے,v,m,sg,any,,یا,yA' posn='140' name='دیا'>
+	))
+7	((	CCP	<fs name='CCP' drel='k2:VGF'>
+7.1	کہ	CC	<fs af='کہ,avy,,,,,,' posn='150' name='کہ'>
+	))
+8	((	NP	<fs name='NP6' drel='k1:VGF2'>
+8.1	ایران	NNP	<fs af='ایران,n,m,sg,3,d,0,0' posn='160' name='ایران'>
+	))
+9	((	NP	<fs name='NP7' drel='r6:NP8'>
+9.1	جاریہ	JJ	<fs af='جاریہ,adj,any,any,,o,,' posn='170' name='جاریہ'>
+9.2	سال	NN	<fs af='سال,n,m,sg,3,o,0,0' posn='180' name='سال'>
+9.3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='190' name='کے3'>
+	))
+10	((	NP	<fs name='NP8' drel='k7t:VGF2'>
+10.1	ختم	NN	<fs af='ختم,n,m,sg,3,o,0,0' posn='200' name='ختم'>
+10.2	تک	PSP	<fs af='تک,avy,,,,,,' posn='210' name='تک'>
+	))
+11	((	NP	<fs name='NP9' drel='r6:NP10'>
+11.1	نیوکلیر	﻿NNC	<fs af='نیوکلیر,n,m,sg,3,d,0,0' posn='220' name='نیوکلیر'>
+11.2	بم	NN	<fs af='بم,n,m,sg,3,o,0,0' posn='230' name='بم'>
+11.3	کی	PSP	<fs af='کا,psp,f,sg,,d,,' posn='240' name='کی'>
+	))
+12	((	NP	<fs name='NP10' drel='jjmod:JJP'>
+12.1	تیاری	NN	<fs af='تیاری,n,m,sg,3,o,0,0' posn='250' name='تیاری'>
+12.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='260' name='کے4'>
+12.3	لیے	PSP	<fs af='لیے,psp,,,,,,' posn='270' name='لیے'>
+	))
+13	((	JJP	<fs name='JJP' drel='nmod:NP11'>
+13.1	درکار	JJ	<fs af='درکار,adj,any,any,,,,' posn='280' name='درکار'>
+	))
+14	((	NP	<fs name='NP11' drel='r6-k2:NP12'>
+14.1	افزودہ	NNPC	<fs af='افزودہ,n,m,sg,3,d,0,0' posn='290' name='افزودہ'>
+14.2	یورانیم	NNP	<fs af='یورانیم,n,m,sg,3,o,0,0' posn='300' name='یورانیم'>
+14.3	کا	PSP	<fs af='کا,psp,m,sg,,d,,' posn='310' name='کا'>
+	))
+15	((	NP	<fs name='NP12' drel='pof:VGF2'>
+15.1	ذخیرہ	NN	<fs af='ذخیرہ,n,m,sg,3,d,0,0' posn='320' name='ذخیرہ'>
+	))
+16	((	VGF	<fs name='VGF2' drel='ccof:CCP' stype='declarative' voicetype='active'>
+16.1	کر	VM	<fs af='کر,v,any,any,any,,0,0' posn='330' name='کر'>
+16.2	لےگا	VM	<fs af='لے,v,m,sg,any,,گا,gA' posn='330' name='لےگا'>
+16.3	۔	SYM	<fs af='-,punc,,,,,,' posn='350' name='۔'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	یہودی	JJ	<fs af='یہودی,adj,any,any,,o,,' posn='10' name='یہودی'>
+1.2	مملکت	NN	<fs af='مملکت,n,m,sg,3,o,0,0' posn='20' name='مملکت'>
+1.3	نے	PSP	<fs af='نے,psp,,,,,,' posn='30' name='نے'>
+	))
+2	((	NP	<fs name='NP2' drel='k2:VGF'>
+2.1	قیاس_آرائیاں	NN	<fs af='قیاس_آرائی,n,m,pl,3,d,0,0' posn='40' name='قیاس_آرائیاں'>
+	))
+3	((	JJP	<fs name='JJP' drel='pof:VGF'>
+3.1	جاری	JJ	<fs af='جاری,adj,any,any,,,,' posn='60' name='جاری'>
+	))
+4	((	VGF	<fs name='VGF'>
+4.1	کی	VM	<fs af=''کر,v,f,sg,any,,یا,yA' posn='70' name='کی'>
+4.2	ہیں	VAUX	<fs af='ہے,v,any,pl,any,,ہے,hE' posn='80' name='ہیں'>
+	))
+5	((	CCP	<fs name='CCP' drel='k2:VGF'>
+5.1	کہ	CC	<fs af='کہ,avy,,,,,,' posn='90' name='کہ'>
+	))
+6	((	NP	<fs name='NP3' drel='r6:NP4'>
+6.1	ایران	NNP	<fs af='ایران,n,m,sg,3,o,0,0' posn='100' name='ایران'>
+6.2	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='110' name='کے'>
+	))
+7	((	NP	<fs name='NP4' drel='k2:VGNN'>
+7.1	خطرہ	NN	<fs af='خطرہ,n,m,sg,3,o,0,0' posn='120' name='خطرہ'>
+7.2	سے	PSP	<fs af='سے,psp,,,,,,' posn='130' name='سے'>
+	))
+8	((	VGNN	<fs name='VGNN' drel='rt:VGF2'>
+8.1	نمٹنے	VM	<fs af='نمٹ,v,any,any,any,o,نا,nA' posn='140' name='نمٹنے'>
+8.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='150' name='کے2'>
+8.3	لیے	PSP	<fs af='لیے,psp,,,,,,' posn='160' name='لیے'>
+	))
+9	((	NP	<fs name='NP5' drel='k1:VGF2'>
+9.1	ایک	QC	<fs af='ایک,num,any,any,,any,,' posn='170' name='ایک'>
+9.2	ہنگامی	JJ	<fs af='ہنگامی,adj,any,any,,d,,' posn='180' name='ہنگامی'>
+9.3	منصوبہ	NN	<fs af='منصوبہ,n,m,sg,3,d,0,0' posn='190' name='منصوبہ'>
+	))
+10	((	JJP	<fs name='JJP2' drel='pof:VGF2'>
+10.1	تیار	JJ	<fs af='تیار,adj,any,any,,,,' posn='200' name='تیار'>
+	))
+11	((	VGF	<fs name='VGF2' drel='ccof:CCP' stype='declarative' voicetype='active'>
+11.1	کیا	VM	<fs af=''کر,v,m,sg,any,,یا,yA' posn='210' name='کیا'>
+11.2	جا	VAUX	<fs af='جا,v,any,any,any,,0,0' posn='220' name='جا'>
+11.3	رہا	VAUX	<fs af=''رہ,v,m,sg,any,,یا,yA' posn='230' name='رہا'>
+11.4	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' posn='240' name='ہے'>
+11.5	۔	SYM	<fs af='-,punc,,,,,,' posn='250' name='۔'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	<fs name='NP' drel='k7t:VGF'>
+1.1	چند	QF	<fs af='چند,avy,,,,,,' posn='10' name='چند'>
+1.2	دن	NN	<fs af='دن,n,m,sg,3,d,0,0' posn='20' name='دن'>
+1.3	قبل	NST	<fs af='قبل,nst,m,sg,3,d,,' posn='30' name='قبل'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	وزیراعظم	NNP	<fs af='وزیراعظم,n,m,sg,3,d,0,0' posn='40' name='وزیراعظم'>
+2.2	اسرائیل	NNP	<fs af='اسرائیل,n,m,sg,3,d,0,0' posn='50' name='اسرائیل'>
+2.3	بنجامن	NNPC	<fs af='بنجامن,n,m,sg,3,d,0,0' posn='60' name='بنجامن'>
+2.4	نیتن	NNPC	<fs af='نیتن,n,m,sg,3,d,0,0' posn='70' name='نیتن'>
+2.5	یاہو	NNP	<fs af='یاہو,n,m,sg,3,o,0,0' posn='80' name='یاہو'>
+2.6	نے	PSP	<fs af='نے,psp,,,,,,' posn='90' name='نے'>
+	))
+3	((	VGF	<fs name='VGF'>
+3.1	کہا	VM	<fs af=''کہہ,v,m,sg,any,,یا,yA' posn='100' name='کہا'>
+3.2	تھا	VAUX	<fs af='تھا,v,m,sg,any,,تھا,WA' posn='110' name='تھا'>
+	))
+4	((	CCP	<fs name='CCP' drel='ccof:VGF'>
+4.1	کہ	CC	<fs af='کہ,avy,,,,,,' posn='120' name='کہ'>
+	))
+5	((	CCP	<fs name='CCP2' drel='ccof:CCP4'>
+5.1	اگر	CC	<fs af='اگر,pn,,,,,,' posn='130' name='اگر'>
+	))
+6	((	NP	<fs name='NP3' drel='k1:VGF2'>
+6.1	یہودی	NNC	<fs af='یہودی,n,m,sg,3,d,0,0' posn='150' name='یہودی'>
+6.2	مملکت	NN	<fs af='مملکت,n,m,sg,3,d,0,0' posn='150' name='مملکت'>
+	))
+7	((	NP	<fs name='NP4' drel='k2:VGF2'>
+7.1	اسلامی	﻿NNC	<fs af='اسلامی,adj,any,any,,,,' posn='160' name='اسلامی'>
+7.2	جمہوریہ	NN	<fs af='جمہوریہ,adj,m,sg,3,d,0,0' posn='170' name='جمہوریہ'>
+7.3	ایران	NNP	<fs af='ایران,n,m,sg,3,o,0,0' posn='180' name='ایران'>
+7.4	کو	PSP	<fs af='کو,psp,,,,,,' posn='190' name='کو'>
+	))
+8	((	NP	<fs name='NP5' drel='r6:NP6'>
+8.1	نیوکلیر	﻿NNC	<fs af='نیوکلیر,n,m,sg,3,d,0,0' posn='200' name='نیوکلیر'>
+8.2	بم	NN	<fs af='بم,n,m,sg,3,o,0,0' posn='210' name='بم'>
+8.3	کی	PSP	<fs af='کا,psp,f,sg,,d,,' posn='220' name='کی'>
+	))
+9	((	NP	<fs name='NP6' drel='vmod:VGF2'>
+9.1	تیاری	NN	<fs af='تیاری,n,m,sg,3,o,0,0' posn='230' name='تیاری'>
+9.2	سے	PSP	<fs af='سے,psp,,,,,,' posn='240' name='سے'>
+	))
+10	((	VGF	<fs name='VGF2' drel='ccof:CCP2'>
+10.1	نہ	NEG	<fs af='نہ,avy,,,,,,' posn='250' name='نہ'>
+10.2	روکے	VM	<fs af='روک,v,m,pl,any,,یا,yA' posn='260' name='روکے'>
+	))
+11	((	CCP	<fs name='CCP3' drel='ccof:CCP'>
+11.1	تو	CC	<fs af='تو,avy,,,,,,' posn='270' name='تو'>
+	))
+12	((	NP	<fs name='NP7' drel='k1:VGF3'>
+12.1	وہ	PRP	<fs af='وہ,pn,any,sg,3,d,0,0' posn='280' name='وہ'>
+	))
+13	((	NP	<fs name='NP8' drel='rt:VGF3'>
+13.1	اسرائیل	NNP	<fs af='اسرائیل,n,m,sg,3,o,0,0' posn='290' name='اسرائیل2'>
+13.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='300' name='کے'>
+13.3	لیے	PSP	<fs af='لیے,psp,,,,,,' posn='310' name='لیے'>
+	))
+14	((	NP	<fs name='NP9' drel='k2:VGF3'>
+14.1	خطرہ	NN	<fs af='خطرہ,n,m,sg,3,d,0,0' posn='320' name='خطرہ'>
+	))
+15	((	VGF	<fs name='VGF3' drel='ccof:CCP4'>
+15.1	بن	VM	<fs af='بن,v,any,any,any,,0,0' posn='330' name='بن'>
+15.2	جائےگا	VAUX	<fs af='جا,v,m,sg,any,,گا,gA' posn='340' name='جائےگا'>
+	))
+16	((	CCP	<fs name='CCP4' drel='ccof:CCP3'>
+16.1	اور	CC	<fs af='اور,avy,,,,,,' posn='360' name='اور'>
+	))
+17	((	NP	<fs name='NP10' drel='k2:VGF4'>
+17.1	اسے	PRP	<fs af='یہ,pn,any,sg,3,o,کو,ko' posn='370' name='اسے'>
+	))
+18	((	JJP	<fs name='JJP' drel='k7t:VGF4'>
+18.1	آئندہ	JJ	<fs af='آئندہ,adj,any,any,,,,' posn='380' name='آئندہ'>
+	))
+19	((	NP	<fs name='NP11' drel='k1:VGF4'>
+19.1	کوئی	PRP	<fs af='کوئی,pn,any,sg,3,d,0,0' posn='390' name='کوئی'>
+19.2	بھی	RP	<fs af='بھی,avy,,,,,,' posn='400' name='بھی'>
+	))
+20	((	VGF	<fs name='VGF4' drel='ccof:CCP4' stype='declarative' voicetype='active'>
+20.1	نہیں	NEG	<fs af='نہیں,avy,,,,,,' posn='410' name='نہیں'>
+20.2	روک	VM	<fs af='روک,v,any,any,any,,0,0' posn='420' name='روک'>
+20.3	سکےگا	VAUX	<fs af='سک,v,m,pl,any,,گا,gA' posn='430' name='سکےگا'>
+20.4	۔	SYM	<fs af='-,punc,,,,,,' posn='450' name='۔'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	بریگیڈیر	﻿NNC	<fs af='بریگیڈیر,n,m,sg,3,d,0,0' posn='10' name='بریگیڈیر'>
+1.2	جنرل	NNP	<fs af='جنرل,n,m,sg,3,d,0,0' posn='20' name='جنرل'>
+1.3	یوسی	NNPC	<fs af='یوسی,n,m,sg,3,d,0,0' posn='30' name='یوسی'>
+1.4	بائیداس	NNP	<fs af='بائیداس,n,m,sg,3,d,0,0' posn='40' name='بائیداس'>
+1.5	،	SYM	<fs af='،,punc,,,,,,' posn='50' name='،'>
+	))
+2	((	NP	<fs name='NP2' drel='r6:NP3'>
+2.1	اسرائیل	NNP	<fs af='اسرائیل,n,m,sg,3,o,0,0' posn='60' name='اسرائیل'>
+2.2	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='70' name='کے'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	فوجی	JJ	<fs af='فوجی,n,m,sg,3,d,0,0' posn='80' name='فوجی'>
+3.2	محکمہ	NNC	<fs af='محکمہ,n,m,sg,3,d,0,0' posn='90' name='محکمہ'>
+3.3	سراغ	NNC	<fs af='سراغ,n,m,sg,3,d,0,0' posn='90' name='سراغ'>
+3.4	رسانی	NN	<fs af='رسانی,n,m,sg,3,d,0,0' posn='90' name='رسانی'>
+3.5	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='120' name='کے2'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	تحقیقی	JJ	<fs af='تحقیقی,adj,any,any,,o,,' posn='130' name='تحقیقی'>
+4.2	شعبہ	NN	<fs af='شعبہ,n,m,sg,3,o,0,0' posn='140' name='شعبہ'>
+4.3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='150' name='کے3'>
+	))
+5	((	NP	<fs name='NP5' drel='k1:VGF'>
+5.1	سربراہ	NN	<fs af='سربراہ,n,m,sg,3,o,0,0' posn='160' name='سربراہ'>
+5.2	نے	PSP	<fs af='نے,psp,,,,,,' posn='170' name='نے'>
+	))
+6	((	NP	<fs name='NP6' drel='pof:VGF'>
+6.1	انتباہ	NN	<fs af='انتباہ,n,m,sg,3,d,0,0' posn='180' name='انتباہ'>
+	))
+7	((	VGF	<fs name='VGF'>
+7.1	دیا	VM	<fs af=''دے,v,m,sg,any,,یا,yA' posn='190' name='دیا'>
+7.2	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' posn='200' name='ہے'>
+	))
+8	((	CCP	<fs name='CCP' drel='k2:VGF'>
+8.1	کہ	CC	<fs af='کہ,avy,,,,,,' posn='210' name='کہ'>
+	))
+9	((	NP	<fs name='NP7' drel='k7p:VGF2'>
+9.1	ایران	NNP	<fs af='ایران,n,m,sg,3,o,0,0' posn='220' name='ایران'>
+9.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='340' name='کے4'>
+9.3	پاس	NST	<fs af='پاس,nst,m,sg,3,d,,' posn='240' name='پاس'>
+	))
+10	((	NP	<fs name='NP8' drel='r6:NP9'>
+10.1	جاریہ	JJ	<fs af='جاریہ,adj,any,any,,o,,' posn='250' name='جاریہ'>
+10.2	سال	NN	<fs af='سال,n,m,sg,3,o,0,0' posn='260' name='سال'>
+10.3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='270' name='کے5'>
+	))
+11	((	NP	<fs name='NP9' drel='k7t:VGF2'>
+11.1	ختم	NN	<fs af='ختم,n,m,sg,3,o,0,0' posn='280' name='ختم'>
+11.2	تک	PSP	<fs af='تک,avy,,,,,,' posn='290' name='تک'>
+	))
+12	((	NP	<fs name='NP10' drel='r6:NP11'>
+12.1	ایٹم	﻿NNC	<fs af='ایٹم,n,m,sg,3,d,,' posn='300' name='ایٹم'>
+12.2	بم	NN	<fs af='بم,n,m,sg,3,o,0,0' posn='310' name='بم'>
+12.3	کی	PSP	<fs af='کا,psp,f,sg,,d,,' posn='320' name='کی'>
+	))
+13	((	NP	<fs name='NP11' drel='jjmod:JJP'>
+13.1	تیاری	NN	<fs af='تیاری,n,m,sg,3,o,0,0' posn='330' name='تیاری'>
+13.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='340' name='کے6'>
+13.3	لیے	PSP	<fs af='لیے,psp,,,,,,' posn='350' name='لیے'>
+	))
+14	((	JJP	<fs name='JJP' drel='nmod:NP12'>
+14.1	درکار	JJ	<fs af='درکار,adj,any,any,,,,' posn='360' name='درکار'>
+	))
+15	((	NP	<fs name='NP12' drel='k2:VGF2'>
+15.1	یورانیم	NNP	<fs af='یورانیم,n,m,sg,3,d,0,0' posn='370' name='یورانیم'>
+	))
+16	((	JJP	<fs name='JJP2' drel='pof:VGF2'>
+16.1	موجود	JJ	<fs af='موجود,adj,any,any,,,,' posn='380' name='موجود'>
+	))
+17	((	VGF	<fs name='VGF2' drel='ccof:CCP' stype='declarative' voicetype='active'>
+17.1	ہوگا	VM	<fs af='ہو,v,m,sg,3,,گا,ga' posn='390' name='ہوگا'>
+17.2	۔	SYM	<fs af='-,punc,,,,,,' posn='400' name='۔'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	NP	<fs name='NP' drel='k1:VGF'>
+1.1	بائیداس	NNP	<fs af='بائیداس,n,m,sg,3,o,0,0' posn='10' name='بائیداس'>
+1.2	نے	PSP	<fs af='نے,psp,,,,,,' posn='20' name='نے'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	یہ	DEM	<fs af='یہ,pn,any,sg,3,d,,' posn='30' name='یہ'>
+2.2	تبصرہ	NN	<fs af='تبصرہ,n,m,sg,3,d,0,0' posn='40' name='تبصرہ'>
+	))
+3	((	NP	<fs name='NP3' drel='r6:NP4'>
+3.1	اسرائیلی	JJ	<fs af='اسرائیلی,adj,any,any,,o,,' posn='50' name='اسرائیلی'>
+3.2	پارلیمنٹ	NN	<fs af='پارلیمنٹ,n,m,sg,3,o,0,0' posn='60' name='پارلیمنٹ'>
+3.3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='70' name='کے'>
+	))
+4	((	NP	<fs name='NP4' drel='k7:VGF'>
+4.1	ایک	QC	<fs af='ایک,num,any,any,,any,,' posn='80' name='ایک'>
+4.2	اجلاس	NN	<fs af='اجلاس,n,m,sg,3,o,0,0' posn='90' name='اجلاس'>
+4.3	میں	PSP	<fs af='میں,psp,,,,,,' posn='100' name='میں'>
+	))
+5	((	VGF	<fs name='VGF'>
+5.1	کیا	VM	<fs af=''کر,v,m,sg,any,,یا,yA' posn='110' name='کیا'>
+	))
+6	((	NP	<fs name='NP5' drel='k7:VGF2'>
+6.1	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' posn='120' name='جس'>
+6.2	میں	PSP	<fs af='میں,psp,,,,,,' posn='130' name='میں2'>
+	))
+7	((	NP	<fs name='NP6' drel='ccof:CCP'>
+7.1	خارجہ	NNC	<fs af='خارجہ,n,m,sg,3,d,0,0' posn='140' name='خارجہ'>
+7.2	تعلقات	NN	<fs af='تعلق,n,m,pl,3,o,0,0' posn='150' name='تعلقات'>
+	))
+8	((	CCP	<fs name='CCP' drel='k1:VGF2'>
+8.1	اور	CC	<fs af='اور,avy,,,,,,' posn='160' name='اور'>
+	))
+9	((	NP	<fs name='NP7' drel='r6:NP8'>
+9.1	دفاع	﻿NNC	<fs af='دفاع,n,m,sg,3,d,0,0' posn='170' name='دفاع'>
+9.2	کمیٹی	NN	<fs af='کمیٹی,n,m,sg,3,o,0,0' posn='180' name='کمیٹی'>
+9.3	کا	PSP	<fs af='کا,psp,m,sg,,d,,' posn='190' name='کا'>
+	))
+10	((	NP	<fs name='NP8' drel='ccof:CCP'>
+10.1	اجلاس	NN	<fs af='اجلاس,n,m,sg,3,d,0,0' posn='200' name='اجلاس2'>
+	))
+11	((	JJP	<fs name='JJP' drel='pof:VGF2'>
+11.1	منعقد	JJ	<fs af='منعقد,adj,any,any,,,,' posn='210' name='منعقد'>
+	))
+12	((	VGF	<fs name='VGF2' drel='nmod__relc:NP4' stype='declarative' voicetype='active'>
+12.1	کیا	VM	<fs af=''کر,v,m,sg,any,,یا,' posn='220' name='کیا2'>
+12.2	جا	VAUX	<fs af='جا,v,any,any,any,,0,0' posn='230' name='جا'>
+12.3	رہا	VAUX	<fs af=''رہ,v,m,sg,any,,یا,' posn='240' name='رہا'>
+12.4	تھا	VAUX	<fs af='تھا,v,m,sg,any,,تھا,WA' posn='250' name='تھا'>
+12.5	۔	SYM	<fs af='-,punc,,,,,,' posn='260' name='۔'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	<fs name='NP' drel='k7t:VGF'>
+1.1	اجلاس	NN	<fs af='اجلاس,n,m,sg,3,o,0,0' posn='10' name='اجلاس'>
+1.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='160' name='کے'>
+1.3	دوران	NST	<fs af='دوران,nst,m,sg,3,d,,' posn='30' name='دوران'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGF'>
+2.1	انہوں	PRP	<fs af='وہ,pn,m,sg,3h,o,0,0' posn='40' name='انہوں'>
+2.2	نے	PSP	<fs af='نے,psp,,,,,,' posn='50' name='نے'>
+	))
+3	((	VGF	<fs name='VGF'>
+3.1	کہا	VM	<fs af=''کہہ,v,m,sg,any,,یا,yA' posn='60' name='کہا'>
+	))
+4	((	CCP	<fs name='CCP' drel='k2:VGF'>
+4.1	کہ	CC	<fs af='کہ,avy,,,,,,' posn='70' name='کہ'>
+	))
+5	((	NP	<fs name='NP3' drel='r6:NP4'>
+5.1	ایران	NNP	<fs af='ایران,n,m,sg,3,o,0,0' posn='80' name='ایران'>
+5.2	کا	PSP	<fs af='کا,psp,m,sg,,d,,' posn='90' name='کا'>
+	))
+6	((	NP	<fs name='NP4' drel='k1:VGF2'>
+6.1	نیوکلیر	JJ	<fs af='نیوکلیر,adj,any,any,,d,,' posn='100' name='نیوکلیر'>
+6.2	پروگرام	NN	<fs af='پروگرام,n,m,sg,3,d,0,0' posn='110' name='پروگرام'>
+	))
+7	((	NP	<fs name='NP5' drel='k2:VGNN'>
+7.1	اس	PRP	<fs af='یہ,pn,any,sg,3,o,0,0' posn='120' name='اس'>
+7.2	کو	PSP	<fs af='کو,psp,,,,,,' posn='130' name='کو'>
+	))
+8	((	JJP	<fs name='JJP' drel='pof:VGNN'>
+8.1	ناکام	JJ	<fs af='ناکام,adj,any,any,,,,' posn='140' name='ناکام'>
+	))
+9	((	VGNN	<fs name='VGNN' drel='jjmod:JJP2'>
+9.1	بنانے	VM	<fs af='بنا,v,any,any,any,o,نا,nA' posn='150' name='بنانے'>
+9.2	کے	PSP	<fs af='کے,psp,,,,,,' posn='160' name='کے2'>
+9.3	لیے	PSP	<fs af='لیے,psp,,,,,,' posn='170' name='لیے'>
+	))
+10	((	JJP	<fs name='JJP2' drel='nmod:NP6'>
+10.1	جاری	JJ	<fs af='جاری,adj,any,any,,,,' posn='180' name='جاری'>
+	))
+11	((	NP	<fs name='NP6' drel='k1u:VGF2'>
+11.1	بین	JJC	<fs af='بین,adj,any,,any,,,' posn='190' name='بین'>
+11.2	الاقوامی	JJ	<fs af='الاقوامی,adj,any,any,,o,,' posn='200' name='الاقوامی'>
+11.3	مذاکرات	NN	<fs af='مذاکرات,n,m,sg,3,o,0,0' posn='210' name='مذاکرات'>
+11.4	سے	PSP	<fs af='سے,psp,,,,,,' posn='220' name='سے'>
+	))
+12	((	NP	<fs name='NP7' drel='adv:VGF2'>
+12.1	زیادہ	INTF	<fs af='زیادہ,avy,,,,,,' posn='230' name='زیادہ'>
+12.2	تیز	JJ	<fs af='تیز,adj,any,any,,o,,' posn='240' name='تیز'>
+12.3	رفتار	NN	<fs af='رفتار,n,m,sg,3,o,0,0' posn='250' name='رفتار'>
+12.4	سے	PSP	<fs af='سے,psp,,,,,,' posn='260' name='سے2'>
+	))
+13	((	NP	<fs name='NP8' drel='pof:VGF2'>
+13.1	پیشرفت	NN	<fs af='پیشرفت,n,m,sg,3,d,0,0' posn='270' name='پیشرفت'>
+	))
+14	((	VGF	<fs name='VGF2' drel='ccof:CCP' stype='declarative' voicetype='active'>
+14.1	کر	VM	<fs af='کر,v,any,any,any,,0,0' posn='280' name='کر'>
+14.2	رہا	VAUX	<fs af=''رہ,v,m,sg,any,,یا,yA' posn='290' name='رہا'>
+14.3	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' posn='300' name='ہے'>
+14.4	۔	SYM	<fs af='-,punc,,,,,,' posn='310' name='۔'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	<fs name='NP' drel='nmod:NP2'>
+1.1	سربراہِ	NN	<fs af='سربراہِ,n,m,sg,3,d,0,0' posn='10' name='سربراہِ'>
+1.2	افواج	NN	<fs af='افواج,n,m,pl,3,d,0,0' posn='20' name='افواج'>
+	))
+2	((	NP	<fs name='NP2' drel='k1:VGNF'>
+2.1	اسرائیل	NNC	<fs af='اسرائیل,n,m,sg,3,d,0,0' posn='30' name='اسرائیل'>
+2.2	لیفٹننٹ	NNC	<fs af='لیفٹننٹ,n,m,sg,3,d,0,0' posn='40' name='لیفٹننٹ'>
+2.3	جنرل	NN	<fs af='جنرل,n,m,sg,3,o,0,0' posn='50' name='جنرل'>
+2.4	گابی	NNPC	<fs af='گابی,n,m,sg,3,d,0,0' posn='60' name='گابی'>
+2.5	اشکینازی	NNP	<fs af='اشکینازی,n,m,sg,3,o,0,0' posn='70' name='اشکینازی'>
+2.6	نے	PSP	<fs af='نے,psp,,,,,,' posn='80' name='نے'>
+	))
+3	((	NP	<fs name='NP3' drel='k7t:VGNF'>
+3.1	حال	NN	<fs af='حال,n,m,sg,3,o,0,0' posn='90' name='حال'>
+3.2	ہی	RP	<fs af='ہی,avy,,,,,,' posn='100' name='ہی'>
+3.3	میں	PSP	<fs af='میں,psp,,,,,,' posn='110' name='میں'>
+	))
+4	((	NP	<fs name='NP4' drel='r6:NP5'>
+4.1	اسی	DEM	<fs af='یہ,pn,any,sg,3,o,,' posn='120' name='اسی'>
+4.2	کمیٹی	NN	<fs af='کمیٹی,n,m,sg,3,o,0,0' posn='130' name='کمیٹی'>
+4.3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' posn='140' name='کے'>
+	))
+5	((	NP	<fs name='NP5' drel='k7:VGNF'>
+5.1	اجلاس	NN	<fs af='اجلاس,n,m,sg,3,o,0,0' posn='150' name='اجلاس'>
+5.2	میں	PSP	<fs af='میں,psp,,,,,,' posn='160' name='میں2'>
+	))
+6	((	NP	<fs name='NP6' drel='pof:VGNF'>
+6.1	بیان	NN	<fs af='بیان,n,m,sg,3,d,0,0' posn='170' name='بیان'>
+	))
+7	((	VGNF	<fs name='VGNF' drel='vmod:VGF'>
+7.1	دیتے	VM	<fs af='دے,v,any,sg,any,,تا,wA' posn='180' name='دیتے'>
+7.2	ہوئے	VAUX	<fs af='ہو,v,any,sg,any,,یا,yA' posn='190' name='ہوئے'>
+	))
+8	((	VGF	<fs name='VGF'>
+8.1	کہا	VM	<fs af=''کہہ,v,m,sg,any,,یا,yA' posn='200' name='کہا'>
+8.2	تھا	VAUX	<fs af='تھا,v,m,sg,any,,تھا,WA' posn='210' name='تھا'>
+	))
+9	((	CCP	<fs name='CCP' drel='k2:VGF'>
+9.1	کہ	CC	<fs af='کہ,avy,,,,,,' posn='220' name='کہ'>
+	))
+10	((	NP	<fs name='NP7' drel='k1:VGF2'>
+10.1	اسرائیلی	JJ	<fs af='اسرائیلی,adj,any,any,,d,,' posn='230' name='اسرائیلی'>
+10.2	فوج	NN	<fs af='فوج,n,m,sg,3,d,0,0' posn='240' name='فوج'>
+	))
+11	((	NP	<fs name='NP8' drel='k2:NP9'>
+11.1	کسی	PRP	<fs af='کوئ,pn,any,sg,3,d,0,0' posn='250' name='کسی'>
+11.2	بھی	RP	<fs af='بھی,avy,,,,,,' posn='260' name='بھی'>
+11.3	ناگہانی	JJ	<fs af='ناگہانی,adj,any,any,,d,,' posn='270' name='ناگہانی'>
+11.4	صورتحال	NN	<fs af='صورتحال,n,m,sg,3,o,0,0' posn='280' name='صورتحال'>
+11.5	سے	PSP	<fs af='سے,psp,,,,,,' posn='300' name='سے'>
+	))
+12	((	VGNN	<fs name='VGNN' drel='r6-k2:NP9'>
+12.1	نمٹنے	VM	<fs af='نمٹ,v,any,any,any,o,نا,nA' posn='310' name='نمٹنے'>
+12.2	کی	PSP	<fs af='کا,psp,f,sg,,d,,' posn='320' name='کی'>
+	))
+13	((	NP	<fs name='NP9' drel='pof:VGF2'>
+13.1	تیاری	NN	<fs af='تیاری,n,m,sg,3,d,0,0' posn='330' name='تیاری'>
+	))
+14	((	VGF	<fs name='VGF2' drel='ccof:CCP' stype='declarative' voicetype='active'>
+14.1	کر	VM	<fs af='کر,v,any,any,any,,0,0' posn='340' name='کر'>
+14.2	رہی	VAUX	<fs af=''رہ,v,f,sg,any,,یا,yA' posn='350' name='رہی'>
+14.3	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' posn='360' name='ہے'>
+14.4	۔	SYM	<fs af='-,punc,,,,,,' posn='370' name='۔'>
+	))
+</Sentence>
+
+</text>
+</tb>
+</body>
+</document>

@@ -1,0 +1,484 @@
+<document id="200299">
+<head>
+<title></title>            
+<caption></caption>            
+<language>Urdu</language>            
+<author>            
+<firstname></firstname>            
+<middlename></middlename>            
+<lastname></lastname>            
+</author>            
+<creation>            
+<raw_corpus creation_date="" institute_name="">            
+<annotated_corpus creation_date="07/25/2009" institute_name="IIIT-Hyderabad">            
+</creation>            
+<domain_name>News Articles </domain_name>            
+<distributor>LTRC, IIIT Hyderabad</distributor>            
+<source>The Siasat Daily</source>            
+<publication>            
+<place>Hyderabad</place>            
+<date>28/5/2004</date>            
+<address>Jawaharlal Nehru Road, Abids</address>            
+<type>Newspaper</type>            
+<publisher>            
+<name>Siasat</name>            
+<url>http://www.siasat.com/</url>            
+</publisher>            
+</publication>            
+<project_description>NSF Hindi/Urdu Dependency Treebanking Project</place>            
+<availability>            
+<format>CML/SSF</format>            
+</availability>            
+<byte_count>6686</byte_count>            
+<word_count>254</word_count>            
+<edition_number>1.0</edition_number>            
+<encoding_description>            
+<original_encoding>ISO 8859</format>            
+<new_encoding>Unicode UTF8</new_encoding>            
+</encoding_description>            
+<bibliography></bibliography>            
+<sentence_marker>.</sentence_marker>            
+<normalization>No</normalization>            
+<utility_name>cml_tags</utility_name>
+</head>
+
+<body>
+<tb number="1" segment="no" bullet="no">
+<foreign language="select" writingsystem="RTL"> </foreign>            
+<text>
+<Sentence id='1'>
+1	((	NP	
+1.1	ملیشیا	NNP	<fs af='ملیشیا,n,m,sg,3,o,0,0'>
+1.2	کے	PSP	<fs af='کا,psp,m,sg,,o,,'>
+	))
+2	((	NP	
+2.1	لی	NNPC	<fs af='لی,n,m,sg,3,d,0,0'>
+2.2	چون	NNPC	<fs af='چون,n,m,sg,3,d,0,0'>
+2.3	وائی	NNPC	<fs af='وائی,n,m,sg,3,d,0,0'>
+2.4	نیو	NNP	<fs af='نیو,n,m,sg,3,d,0,0'>
+	))
+3	((	NP	
+3.1	افتتاحی	JJ	<fs af='افتتاحی,adj,any,any,,d,,'>
+3.2	انڈیا	NNPC	<fs af='انڈیا,n,m,sg,3,d,0,0'>
+3.3	اوپن	NNPC	<fs af='اوپن,n,m,sg,3,d,0,0'>
+3.4	سوپر	NNPC	<fs af='سوپر,n,m,sg,3,d,0,0'>
+3.5	سیریز	NNPC	<fs af='سیریز,n,m,sg,3,d,0,0'>
+3.6	بیڈ	NNPC	<fs af='بیڈ,n,m,sg,3,d,0,0'>
+3.7	مینٹن	NNPC	<fs af='مینٹن,n,m,sg,3,d,0,0'>
+3.8	سنگلز	NNP	<fs af='سنگلز,n,m,sg,3,d,0,0'>
+3.9	خطاب	NN	<fs af='خطاب,n,m,sg,3,d,0,0'>
+	))
+4	((	VGF	
+4.1	جیت	VM	<fs af='جیت,v,any,any,any,,0,0'>
+4.2	لیا	VAUX	<fs af='لے,v,m,sg,any,,یا,yA'>
+4.3	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='2'>
+1	((	NP	
+1.1	انہوں	PRP	<fs af='وہ,pn,any,sg,3h,o,0,0'>
+1.2	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+2	((	NP	
+2.1	نئی	NNPC	<fs af='نئی,n,m,sg,3,d,0,0'>
+2.2	دہلی	NNP	<fs af='دہلی,n,m,sg,3,o,0,0'>
+2.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+3	((	VGNF	
+3.1	کھیلے	VM	<fs af='کھیل,v,m,sg,any,,یا,yA'>
+3.2	گئے	VAUX	<fs af='جا,v,m,pl,any,,یا1,yA1'>
+	))
+4	((	NP	
+4.1	فائنل	JJ	<fs af='فائنل,adj,any,any,,o,,'>
+4.2	مقابلہ	NN	<fs af='مقابلہ,n,m,sg,3,o,0,0'>
+4.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+5	((	NP	
+5.1	پیٹر	NNPC	<fs af='پیٹر,n,m,sg,3,d,0,0'>
+5.2	گیڈ	NNP	<fs af='گیڈ,n,m,sg,3,o,0,0'>
+5.3	کو	PSP	<fs af='کو,psp,,,,,,'>
+	))
+6	((	NP	
+6.1	21	QC	<fs af='21,num,any,any,,any,,'>
+6.2	-	SYM	<fs af='-,punc,,,,,,'>
+6.3	12	QC	<fs af='12,num,any,any,,any,,'>
+6.4	,	SYM	<fs af=',,punc,,,,,'>
+	))
+7	((	NP	
+7.1	12	QC	<fs af='12,num,any,any,,any,,'>
+7.2	-	SYM	<fs af='-,punc,,,,,,'>
+7.3	21	QC	<fs af='21,num,any,any,,any,,'>
+7.4	,	SYM	<fs af=',,punc,,,,,'>
+	))
+8	((	NP	
+8.1	21	QC	<fs af='21,num,any,any,,any,,'>
+8.2	-	SYM	<fs af='-,punc,,,,,,'>
+8.3	15	QC	<fs af='15,num,any,any,,any,,'>
+8.4	سے	PSP	<fs af='سے,psp,,,,,,'>
+	))
+9	((	NP	
+9.1	شکست	NN	<fs af='شکست,n,f,sg,3,d,0,0'>
+	))
+10	((	VGF	
+10.1	دے	VM	<fs af='دے,v,any,sg,any,,یا,yA'>
+10.2	دی	VAUX	<fs af='دے,v,f,sg,any,,یا,yA'>
+10.3	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='3'>
+1	((	NP	
+1.1	لی	NNPC	<fs af='لے,n,m,sg,3,d,0,0'>
+1.2	چونگ	NNPC	<fs af='چونگ,n,m,sg,3,d,0,0'>
+1.3	وائی	NNP	<fs af='وائی,n,m,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	عالمی	JJ	<fs af='عالمی,adj,any,any,,o,,'>
+2.2	سطح	NN	<fs af='سطح,n,f,sg,3,o,0,0'>
+2.3	پر	PSP	<fs af='پر,psp,,,,,,'>
+	))
+3	((	NP	
+3.1	اول	QO	<fs af='اول,num,m,sg,,d,,'>
+3.2	نمبر	NN	<fs af='نمبر,n,m,sg,3,d,0,0'>
+3.3	رینکنگ	NN	<fs af='رینکنگ,n,m,sg,3,d,0,0'>
+	))
+4	((	VGF	
+4.1	رکھتے	VM	<fs af='رکھ,v,m,sg,any,,تا,wA'>
+4.2	ہےں	VAUX	<fs af='ہے,v,any,sg,3h,,ہے,hE'>
+	))
+5	((	CCP	
+5.1	اور	CC	<fs af='اور,avy,,,,,,'>
+	))
+6	((	NP	
+6.1	انہوں	PRP	<fs af='وہ,pn,any,sg,3h,o,0,0'>
+6.2	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+7	((	NP	
+7.1	تیسرے	QO	<fs af='تیسرے,num,m,sg,,d,,'>
+7.2	نمبر	NN	<fs af='نمبر,n,m,sg,3,d,0,0'>
+7.3	سیڈ	NNP	<fs af='سیڈ,n,m,sg,3,d,0,0'>
+	))
+8	((	NP	
+8.1	34	QC	<fs af='34,num,any,any,,any,,'>
+8.2	سالہ	JJ	<fs af='سالہ,adj,any,any,,o,,'>
+8.3	گیڈ	NNP	<fs af='گیڈ,n,m,sg,3,o,0,0'>
+8.4	کو	PSP	<fs af='کو,psp,,,,,,'>
+	))
+9	((	NP	
+9.1	شکست	NN	<fs af='شکست,n,f,sg,3,o,0,0'>
+9.2	سے	PSP	<fs af='سے,psp,,,,,,'>
+	))
+10	((	JJP	
+10.1	دوچار	JJ	<fs af='دوچار,adj,any,any,,,,'>
+	))
+11	((	VGNF	
+11.1	کرتے	VM	<fs af='کر,v,any,any,any,,تا,wA'>
+11.2	ہوئے	VAUX	<fs af='ہو,v,any,any,any,,یا,yA'>
+	))
+12	((	NP	
+12.1	افتتاحی	JJ	<fs af='افتتاحی,adj,any,any,,d,,'>
+12.2	خطاب	NN	<fs af='خطاب,n,m,sg,3,d,0,0'>
+	))
+13	((	VGF	
+13.1	جیت	VM	<fs af='جیت,v,any,any,any,,0,0'>
+13.2	لیا	VAUX	<fs af='لے,v,m,sg,any,,یا,yA'>
+13.3	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='4'>
+1	((	NP	
+1.1	دونوں	QC	<fs af='دو,num,any,any,,any,,'>
+1.2	کھلاڑیوں	NN	<fs af='کھلاڑی,n,m,pl,3,o,0,0'>
+1.3	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+2	((	NP	
+2.1	سیری	NNPC	<fs af='سیری,n,m,sg,3,d,0,0'>
+2.2	فورٹ	NNPC	<fs af='فورٹ,n,m,sg,3,d,0,0'>
+2.3	اسپورٹس	NNPC	<fs af='اسپورٹس,n,m,sg,3,d,0,0'>
+2.4	کامپلکس	NNP	<fs af='کامپلکس,n,m,sg,3,o,0,0'>
+2.5	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+3	((	VGF	
+3.1	ہوئے	VM	<fs af='ہو,v,any,pl,any,,یا,yA'>
+	))
+4	((	NP	
+4.1	اس	DEM	<fs af='وہ,pn,any,sg,3,o,,'>
+4.2	مقابلہ	NN	<fs af='مقابلہ,n,m,sg,3,o,0,0'>
+4.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+5	((	NP	
+5.1	کانٹے	NN	<fs af='کانٹا,n,m,sg,3,o,0,0'>
+5.2	کا	PSP	<fs af='کا,psp,m,sg,,d,,'>
+	))
+6	((	NP	
+6.1	مقابلہ	NN	<fs af='مقابلہ,n,m,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA'>
+7.2	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='5'>
+1	((	NP	
+1.1	پہلے	QO	<fs af='پہلا,num,m,sg,,o,,'>
+1.2	سیٹ	NN	<fs af='سیٹ,n,m,sg,3,o,0,0'>
+1.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+2	((	NP	
+2.1	کامیابی	NN	<fs af='کامیابی,n,f,sg,3,o,0,0'>
+2.2	کے	PSP	<fs af='کے,psp,,,,,,'>
+2.3	بعد	NST	<fs af='بعد,nst,m,sg,3,d,,'>
+	))
+3	((	NP	
+3.1	چونگ	NNPC	<fs af='چونگ,n,m,sg,3,d,0,0'>
+3.2	وائی	NNP	<fs af='وائی,n,m,sg,3,o,0,0'>
+3.3	کو	PSP	<fs af='کو,psp,,,,,,'>
+	))
+4	((	NP	
+4.1	دوسرے	QO	<fs af='دوسرا,num,m,sg,,o,,'>
+4.2	سیٹ	NN	<fs af='سیٹ,n,m,sg,3,o,0,0'>
+4.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+5	((	NP	
+5.1	شکست	NN	<fs af='شکست,n,f,sg,3,o,0,0'>
+5.2	کا	PSP	<fs af='کا,psp,m,sg,,d,,'>
+	))
+6	((	NP	
+6.1	سامنا	NN	<fs af='سامنا,n,m,sg,3,d,0,0'>
+	))
+7	((	VGF	
+7.1	کرنا	VM	<fs af='کر,v,m,sg,any,,نا,nA'>
+7.2	پڑا	VAUX	<fs af='پڑ,v,m,sg,any,,یا,yA'>
+	))
+8	((	CCP	
+8.1	تاہم	CC	<fs af='تاہم,avy,,,,,,'>
+	))
+9	((	NP	
+9.1	انہوں	PRP	<fs af='وہ,pn,any,sg,3h,o,0,0'>
+9.2	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+10	((	NP	
+10.1	تیسرے	QO	<fs af='تیسرا,num,m,sg,,o,,'>
+	))
+11	((	CCP	
+11.1	اور	CC	<fs af='اور,avy,,,,,,'>
+	))
+12	((	NP	
+12.1	فیصلہ_کن	JJ	<fs af='فیصلہ_کن,adj,any,any,,o,,'>
+12.2	ٹسٹ	NN	<fs af='ٹسٹ,n,m,sg,3,o,0,0'>
+12.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+13	((	NP	
+13.1	زبردست	JJ	<fs af='زبردست,adj,any,any,,d,,'>
+13.2	مزاحمت	NN	<fs af='مزاحمت,n,f,sg,3,d,0,0'>
+	))
+14	((	VGNF	
+14.1	کرتے	VM	<fs af='کر,v,any,any,any,,تا,wA'>
+14.2	ہوئے	VAUX	<fs af='ہو,v,any,any,any,,یا,yA'>
+	))
+15	((	NP	
+15.1	شاندار	JJ	<fs af='شاندار,adj,any,any,,d,,'>
+15.2	واپسی	NN	<fs af='واپسی,n,m,sg,3,d,0,0'>
+	))
+16	((	VGF	
+16.1	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA'>
+	))
+17	((	CCP	
+17.1	اور	CC	<fs af='اور,avy,,,,,,'>
+	))
+18	((	NP	
+18.1	مخالف	JJ	<fs af='مخالف,adj,any,any,,o,,'>
+18.2	کھلاڑی	NN	<fs af='کھلاڑی,n,m,sg,3,o,0,0'>
+18.3	کو	PSP	<fs af='کو,psp,,,,,,'>
+	))
+19	((	NP	
+19.1	کوئی	PRP	<fs af='کوئی,pn,any,sg,3,d,0,0'>
+19.2	موقع	NN	<fs af='موقع,n,m,sg,3,d,0,0'>
+	))
+20	((	VGNF	
+20.1	دئے	VM	<fs af='دے,v,any,any,any,,یا,yA'>
+20.2	بغیر	RP	<fs af='بغیر,avy,,,,,,'>
+	))
+21	((	NP	
+21.1	کامیابی	NN	<fs af='کامیابی,n,f,sg,3,d,0,0'>
+	))
+22	((	NP	
+22.1	حاصل	NN	<fs af='حاصل,n,m,sg,3,d,0,0'>
+	))
+23	((	VGF	
+23.1	کر	VM	<fs af='کر,v,any,any,any,,0,0'>
+23.2	لی	VAUX	<fs af='لے,v,f,sg,any,,یا,yA'>
+23.3	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='6'>
+1	((	NP	
+1.1	پہلے	QO	<fs af='پہلا,num,m,sg,,o,,'>
+1.2	سیٹ	NN	<fs af='سیٹ,n,m,sg,3,o,0,0'>
+1.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+2	((	NP	
+2.1	جب	PRP	<fs af='جب,pn,,,,d,,'>
+	))
+3	((	NP	
+3.1	چونگ	NNPC	<fs af='چونگ,n,m,sg,3,d,0,0'>
+3.2	وائی	NNP	<fs af='وائی,n,m,sg,3,o,0,0'>
+3.3	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+4	((	NP	
+4.1	سبقت	NN	<fs af='سبقت,n,f,sg,3,d,0,0'>
+	))
+5	((	NP	
+5.1	حاصل	NN	<fs af='حاصل,n,m,sg,3,d,0,0'>
+	))
+6	((	VGF	
+6.1	کر	VM	<fs af='کر,v,any,any,any,,0,0'>
+6.2	لی	VAUX	<fs af='لے,v,f,sg,any,,یا,yA'>
+6.3	تھی	VAUX	<fs af='تھا,v,f,sg,3,,تھا,WA'>
+	))
+7	((	NP	
+7.1	اس	DEM	<fs af='وہ,pn,any,sg,3,o,,'>
+7.2	وقت	NN	<fs af='وقت,n,m,sg,3,o,0,0'>
+7.3	بھی	RP	<fs af='بھی,avy,,,,,,'>
+	))
+8	((	NP	
+8.1	گیڈ	NNP	<fs af='گیڈ,n,m,sg,3,o,0,0'>
+8.2	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+9	((	NP	
+9.1	اچھی	JJ	<fs af='اچھا,adj,f,sg,,d,,'>
+9.2	مزاحمت	NN	<fs af='مزاحمت,n,m,sg,3,d,0,0'>
+	))
+10	((	VGF	
+10.1	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA'>
+10.2	تھی	VAUX	<fs af='تھا,v,f,sg,3,,تھا,WA'>
+	))
+11	((	CCP	
+11.1	تاہم	CC	<fs af='تاہم,avy,,,,,,'>
+	))
+12	((	NP	
+12.1	وہ	PRP	<fs af='وہ,pn,any,sg,3,d,0,0'>
+	))
+13	((	NP	
+13.1	زیادہ	QF	<fs af='زیادہ,avy,,,,,,'>
+13.2	مزاحمت	NN	<fs af='مزاحمت,n,m,sg,3,d,0,0'>
+	))
+14	((	VGNF	
+14.1	کرتے	VM	<fs af='کر,v,any,any,any,,تا,wA'>
+14.2	ہوئے	VAUX	<fs af='ہو,v,any,any,any,,یا,yA'>
+	))
+15	((	NP	
+15.1	سیٹ	NN	<fs af='سیٹ,n,m,sg,3,o,0,0'>
+15.2	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+16	((	NP	
+16.1	کامیابی	NN	<fs af='کامیابی,n,f,sg,3,d,0,0'>
+	))
+17	((	NP	
+17.1	حاصل	NN	<fs af='حاصل,n,m,sg,3,d,0,0'>
+	))
+18	((	VGF	
+18.1	نہیں	NEG	<fs af='نہیں,avy,,,,,,'>
+18.2	کر	VM	<fs af='کر,v,any,any,any,,0,0'>
+18.3	سکے	VAUX	<fs af='سک,v,m,sg,any,,یا,yA'>
+18.4	تھے	VAUX	<fs af='تھا,v,m,sg,3,,تھا,WA'>
+18.5	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+<Sentence id='7'>
+1	((	NP	
+1.1	دوسرا	QO	<fs af='دوسرا,num,m,sg,,d,,'>
+1.2	مقابلہ	NN	<fs af='مقابلہ,n,m,sg,3,d,0,0'>
+	))
+2	((	NP	
+2.1	گیڈ	NNP	<fs af='گیڈ,n,m,sg,3,o,0,0'>
+2.2	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+3	((	VGF	
+3.1	جیتا	VM	<fs af='جیت,v,m,sg,any,,یا,yA'>
+	))
+4	((	CCP	
+4.1	اور	CC	<fs af='اور,avy,,,,,,'>
+	))
+5	((	NP	
+5.1	تیسرے	QO	<fs af='تیسرا,num,m,sg,,o,,'>
+5.2	سیٹ	NN	<fs af='سیٹ,n,m,sg,3,o,0,0'>
+5.3	مےں	PSP	<fs af='مےں,psp,,,,,,'>
+	))
+6	((	NP	
+6.1	دونوں	NN	<fs af='دو,n,any,pl,3,o,0,0'>
+6.2	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+7	((	NP	
+7.1	سخت	JJ	<fs af='سخت,adj,any,any,,d,,'>
+7.2	جدوجہد	NN	<fs af='جدوجہد,n,f,sg,3,d,0,0'>
+	))
+8	((	VGF	
+8.1	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA'>
+	))
+9	((	CCP	
+9.1	لیکن	CC	<fs af='لیکن,avy,,,,,,'>
+	))
+10	((	NP	
+10.1	چونگ	NNPC	<fs af='چونگ,n,m,sg,3,d,0,0'>
+10.2	وائی	NNP	<fs af='وائی,n,m,sg,3,o,0,0'>
+10.3	نے	PSP	<fs af='نے,psp,,,,,,'>
+	))
+11	((	NP	
+11.1	گیڈ	NNP	<fs af='گیڈ,n,m,sg,3,o,0,0'>
+11.2	کی	PSP	<fs af='کا,psp,f,sg,,d,,'>
+	))
+12	((	NP	
+12.1	سرویس	NN	<fs af='سرویس,n,f,sg,3,d,0,0'>
+	))
+13	((	VGF	
+13.1	بریک	VM	<fs af='بریک,v,any,any,any,,0,0'>
+13.2	کی	VAUX	<fs af='کر,v,f,sg,any,,یا,yA'>
+	))
+14	((	CCP	
+14.1	اور	CC	<fs af='اور,avy,,,,,,'>
+	))
+15	((	NP	
+15.1	اس	PRP	<fs af='وہ,pn,any,sg,3,o,0,0'>
+15.2	کے	PSP	<fs af='کے,psp,,,,,,'>
+15.3	بعد	NST	<fs af='بعد,nst,m,sg,3,d,,'>
+15.4	سے	PSP	<fs af='سے,psp,,,,,,'>
+	))
+16	((	NP	
+16.1	وہ	PRP	<fs af='وہ,pn,any,sg,3,d,0,0'>
+	))
+17	((	RBP	
+17.1	مسلسل	RB	<fs af='مسلسل,adv,,,,,,'>
+	))
+18	((	NP	
+18.1	تین	QC	<fs af='تین,num,any,any,,any,,'>
+18.2	پوائنٹ	NN	<fs af='پوائنٹ,n,m,sg,3,d,0,0'>
+	))
+19	((	NP	
+19.1	حاصل	NN	<fs af='حاصل,n,m,sg,3,d,0,0'>
+	))
+20	((	VGNF	
+20.1	کرتے	VM	<fs af='کر,v,any,any,any,,تا,wA'>
+20.2	ہوئے	VAUX	<fs af='ہو,v,any,any,any,,یا,yA'>
+	))
+21	((	NP	
+21.1	کافی	INTF	<fs af='کافی,avy,,,,,,'>
+21.2	آگے	NST	<fs af='آگے,nst,m,sg,3,d,,'>
+	))
+22	((	VGF	
+22.1	نکل	VM	<fs af='نکل,v,any,any,any,,0,0'>
+22.2	گئے	VAUX	<fs af='جا,v,m,sg,any,,یا1,yA1'>
+22.3	تھے	VAUX	<fs af='تھا,v,m,sg,3,,تھا,WA'>
+22.4	۔	SYM	<fs af='۔,punc,,,,,,'>
+	))
+</Sentence>
+
+</body>
+</tb>
+</text>
+</document>
