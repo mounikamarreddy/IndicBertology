@@ -1,7 +1,7 @@
 import ssfAPI as ssf
 from argparse import ArgumentParser
 from re import search
-from sys import argc
+from sys import argv
 import os
 
 def find_file_list(folder_path):
@@ -15,8 +15,12 @@ def write_lines_to_file(lines, file_path):
     with open(file_path, 'w', encoding='utf-8') as file_write:
         file_write.write('\n'.join(lines))
 
-def getTense(sentence):
-    return "PRESENT"
+def getTAM(sentence):
+    for chunknode in sentence.nodeList:
+        if chunknode.parentRelation == "root":
+            features = chunknode.nodeList[0].getAttribute("af")
+
+    return features.split(",")[-1]
 
 def main():
     parser = ArgumentParser()
@@ -29,13 +33,13 @@ def main():
     if not os.path.isdir(args.inp):
         ssf_doc = ssf.Document(args.inp)
         for sentence in ssf_doc.nodeList:
-            sentences_with_tense.append(getTense(sentence)+"--"+sentence.generateSentence())
+            sentences_with_tense.append(getTAM(sentence)+"--"+sentence.generateSentence())
     else:
         file_list = find_file_list(args.inp)
         for file in file_list:
             ssf_doc = ssf.Document(file)
             for sentence in ssf_doc.nodeList:
-                sentences_with_tense.append(getTense(sentence)+"--"+sentence.generateSentence())
+                sentences_with_tense.append(getTAM(sentence)+"--"+sentence.generateSentence())
     
     write_lines_to_file(sentences_with_tense, args.out)
 

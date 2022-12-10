@@ -68,7 +68,7 @@ def main():
                 object_with_number_and_sentences.append(object_with_number_and_sentence)
     else:
         file_list = find_file_list(args.inp)
-        print(len(file_list))
+        # print(len(file_list))
         object_with_number_and_sentences = []
         for fl in file_list:
             ssf_document = ssf.Document(fl)
@@ -77,7 +77,7 @@ def main():
                 object_with_number_and_sentence = find_object_number_from_sentence(sentence)
                 if object_with_number_and_sentence:
                     object_with_number_and_sentences.append(object_with_number_and_sentence)
-                print(object_with_number_and_sentences)
+                # print(object_with_number_and_sentences)
     write_lines_to_file(object_with_number_and_sentences, args.out)
 
 

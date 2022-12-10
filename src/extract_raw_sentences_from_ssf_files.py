@@ -28,26 +28,24 @@ def extract_raw_sentences(file_path):
 
 
 def main():
-    """Pass arguments and call functions here."""
-    # this program runs on both folder and file level.
     parser = ArgumentParser(description="This is a program for extracting raw sentences from dependency annotated treebanks.")
     parser.add_argument('-i', dest='inp', help='Enter the input folder of treebank files.')
     parser.add_argument('-o', dest='out', help='Enter the output folder where raw sentences will be written to.')
     args = parser.parse_args()
+    sentences_final = []
     if not os.path.isdir(args.inp):
-    # Create a document object for an SSF annotated file
         raw_sentences = extract_raw_sentences(args.inp)
-        write_lines_to_file(raw_sentences, args.out)
+        for item in raw_sentences:
+            sentences_final.append(item)
+
     else:
-        # this is for folder
-        if not os.path.isdir(args.out):
-            os.makedirs(args.out)
         file_list = find_file_list(args.inp)
         for fl in file_list:
             raw_sentences = extract_raw_sentences(fl)
-            file_name = fl[fl.rfind('/') + 1:]
-            output_path = os.path.join(args.out, file_name)
-            write_lines_to_file(raw_sentences, output_path)
+            for item in raw_sentences:
+                sentences_final.append(item)
+
+    write_lines_to_file(sentences_final, args.out)
 
 
 if __name__ == '__main__':

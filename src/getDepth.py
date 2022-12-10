@@ -46,14 +46,21 @@ def main():
     if not os.path.isdir(args.inp):
         ssf_doc = ssf.Document(args.inp)
         for sentence in ssf_doc.nodeList[12:13]:
-            sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+            try:
+                sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+            except:
+                sentences_with_tc.append("0"+"-"+sentence.generateSentence())
+
     else:
         file_list = find_file_list(args.inp)
         sentences_with_tc = []
         for file in file_list:
             ssf_document = ssf.Document(file)
             for sentence in ssf_document.nodeList:
-                sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+                try:
+                    sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+                except:
+                    sentences_with_tc.append("0"+"-"+sentence.generateSentence())
     write_lines_to_file(sentences_with_tc, args.out)
 
 if __name__  == '__main__':
