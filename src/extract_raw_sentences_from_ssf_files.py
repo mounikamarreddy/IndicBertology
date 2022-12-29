@@ -25,8 +25,7 @@ def extract_raw_sentences(file_path):
     for sentence in ssf_document.nodeList:
         raw_sentences.append(sentence.generateSentence())
     return raw_sentences
-
-
+    
 def main():
     parser = ArgumentParser(description="This is a program for extracting raw sentences from dependency annotated treebanks.")
     parser.add_argument('-i', dest='inp', help='Enter the input folder of treebank files.')

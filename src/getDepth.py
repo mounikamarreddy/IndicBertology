@@ -3,6 +3,7 @@ from argparse import ArgumentParser
 from re import search
 from sys import argv
 import os
+import pandas as pd
 
 def find_file_list(folder_path):
     """Find file list inside a folder."""
@@ -33,24 +34,29 @@ def getDepth(sentence):
             for item in sentence.edges[str(popped)]:
                 queue.append(item)
                 namedict[item] = namedict[popped]+1
-    print(namedict)
     return max(namedict.values())
     
 
 def main():
     parser = ArgumentParser()
+    depth = []
+    sentences = []
     parser.add_argument('-i', dest='inp')
-    parser.add_argument('-o', dest='out')
+    parser.add_argument('-o',dest='out')
     args = parser.parse_args()
     sentences_with_tc = []
     if not os.path.isdir(args.inp):
         ssf_doc = ssf.Document(args.inp)
-        for sentence in ssf_doc.nodeList[12:13]:
+        for sentence in ssf_doc.nodeList:
             try:
-                sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+                # sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+                depth.append(getDepth(sentence))
+                sentences.append(sentence.generateSentence())
             except:
-                sentences_with_tc.append("0"+"-"+sentence.generateSentence())
-
+            #    sentences_with_tc.append("0"+"-"+sentence.generateSentence())
+                depth.append(0)
+                sentences.append(sentence.generateSentence())
+ 
     else:
         file_list = find_file_list(args.inp)
         sentences_with_tc = []
@@ -58,10 +64,17 @@ def main():
             ssf_document = ssf.Document(file)
             for sentence in ssf_document.nodeList:
                 try:
-                    sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+                    # sentences_with_tc.append(str(getDepth(sentence))+"-"+sentence.generateSentence())
+                    depth.append(getDepth(sentence))
+                    sentences.append(sentence.generateSentence())
                 except:
-                    sentences_with_tc.append("0"+"-"+sentence.generateSentence())
-    write_lines_to_file(sentences_with_tc, args.out)
+                    # sentences_with_tc.append("0"+"-"+sentence.generateSentence())
+                    depth.append(0)
+                    sentences.append(sentence.generateSentence())
+    # write_lines_to_file(sentences_with_tc, args.out)
+    d = {"depth":depth,"sentences":sentences}
+    df = pd.DataFrame(d)
+    df.to_csv(args.out,index=False)
 
 if __name__  == '__main__':
     main()

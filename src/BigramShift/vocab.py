@@ -4,6 +4,7 @@ from re import search
 from sys import argv
 import os
 import random
+import pandas as pd
 
 def find_file_list(folder_path):
     """Find file list inside a folder."""
@@ -20,18 +21,15 @@ def extract_raw_sentences(file_path):
     return raw_sentences
 
 
-def getTotalCorpus():
-    parser = ArgumentParser(description="This is a program for extracting raw sentences from dependency annotated treebanks.")
-    parser.add_argument('-i', dest='inp')
-    args = parser.parse_args()
+def getTotalCorpus(inp):
     sentences = []
-    if not os.path.isdir(args.inp):
-        raw_sentences = extract_raw_sentences(args.inp)
+    if not os.path.isdir(inp):
+        raw_sentences = extract_raw_sentences(inp)
         for item in raw_sentences:
             sentences.append(item)
 
     else:
-        file_list = find_file_list(args.inp)
+        file_list = find_file_list(inp)
         for fl in file_list:
             raw_sentences = extract_raw_sentences(fl)
             for item in raw_sentences:
@@ -45,8 +43,13 @@ def write_lines_to_file(lines, file_path):
         file_write.write('\n'.join(lines))
 
 def main():
+    parser = ArgumentParser(description="This is a program for extracting raw sentences from dependency annotated treebanks.")
+    parser.add_argument('-i', dest='inp')
+    parser.add_argument('-o', dest='out')
+    args = parser.parse_args()
+
     BShift = []
-    sentences = getTotalCorpus()
+    sentences = getTotalCorpus(args.inp)
     vocabulary = {}
     data = ""
     for item in sentences:
@@ -66,27 +69,33 @@ def main():
             f.write("\n")
         f.close()
     vocabulary = dict(sorted(vocabulary.items(), key=lambda item: item[1]))
-
+    shifted_sentences = []
     for sentence in sentences:
         temp = random.randint(0,10)
-        if temp <= 2:
-            sentence = sentence.split(" ")
-            b = random.randint(0,len(sentence)-1)
-            c = random.randint(0,len(sentence)-1)
-            while c == b :
-                c = random.randint(0,len(sentence)-1)
+        if(len(sentence)>=4):
+            if temp <= 2:
+                sentence = sentence.split(" ")
+                b = random.randint(0,len(sentence)-2)
 
-            tmp = sentence[b]
-            sentence[b] = sentence[c]
-            sentence[c] = tmp
-            sentence = " ".join(sentence)
-            BShift.append("I"+"---"+sentence)
-            print(sentence)
-        elif temp >= 8:
-            BShift.append("O"+"---"+sentence)
+                tmp = sentence[b]
+                sentence[b] = sentence[b+1]
+                sentence[b+1] = tmp
 
-    
-    write_lines_to_file(BShift, "BShift.txt")
+                print(sentence)
+
+                sentence = " ".join(sentence)
+                BShift.append(1)
+                shifted_sentences.append(sentence)
+            else:
+                BShift.append(0)
+                shifted_sentences.append(sentence)
+        else:
+            BShift.append(0)
+            shifted_sentences.append(sentence)
+
+    d = {"BShift":BShift,"sentences":shifted_sentences}
+    df = pd.DataFrame(d)
+    df.to_csv(args.out,index=False)
 
 
 if __name__ == '__main__':

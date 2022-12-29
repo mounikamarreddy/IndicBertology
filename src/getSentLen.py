@@ -3,6 +3,7 @@ from sys import orig_argv
 from re import search
 from argparse import ArgumentParser
 import ssfAPI as ssf
+import pandas as pd
 
 def find_file_list(folder_path):
     """Find file list inside a folder."""
@@ -20,24 +21,33 @@ def getlen(sentence):
     return len(str_temp.split(" "))
 
 def main():
+    len = []
+    sentences = []
     parser = ArgumentParser()
-    parser.add_argument('-i', dest='inp', help='Enter the input folder or file for which object number should be extracted.')
-    parser.add_argument('-o', dest='out', help='Enter the output file to which object number info will be written to.')
+    parser.add_argument('-i', dest='inp')
+    parser.add_argument('-o', dest='out')
     args = parser.parse_args()
     sentences_with_length = []
     if not os.path.isdir(args.inp):
         ssf_doc = ssf.Document(args.inp)
         for sentence in ssf_doc.nodeList:
-            sentences_with_length.append(str(getlen(sentence))+"--"+sentence.generateSentence())
+            # sentences_with_length.append(str(getlen(sentence))+"--"+sentence.generateSentence())
+            len.append(getlen(sentence))
+            sentences.append(sentence.generateSentence())
     else:
         file_list = find_file_list(args.inp)
         for file in file_list:
             ssf_doc = ssf.Document(file)
             for sentence in ssf_doc.nodeList:
-                sentences_with_length.append(str(getlen(sentence))+"--"+sentence.generateSentence())
+                # sentences_with_length.append(str(getlen(sentence))+"--"+sentence.generateSentence())
+                len.append(getlen(sentence))
+                sentences.append(sentence.generateSentence())
 
 
-    write_lines_to_file(sentences_with_length,args.out)
+    # write_lines_to_file(sentences_with_length,args.out)
+    d = {"len":len,"sentences":sentences}
+    df = pd.DataFrame(d)
+    df.to_csv(args.out,index=False)
 
 
 if __name__ == '__main__':
