@@ -70,32 +70,44 @@ def main():
         f.close()
     vocabulary = dict(sorted(vocabulary.items(), key=lambda item: item[1]))
     shifted_sentences = []
+    print("vocabulary done")
+    print(vocabulary)
     for sentence in sentences:
         temp = random.randint(0,10)
-        if(len(sentence)>=4):
-            if temp <= 2:
-                sentence = sentence.split(" ")
-                b = random.randint(0,len(sentence)-2)
+        try:
+            if(len(sentence)>=4):
+                if temp <= 2:
+                    sentence = sentence.split(" ")
+                    b = random.randint(0,len(sentence)-2)
 
-                tmp = sentence[b]
-                sentence[b] = sentence[b+1]
-                sentence[b+1] = tmp
+                    tmp = sentence[b]
+                    sentence[b] = sentence[b+1]
+                    sentence[b+1] = tmp
 
-                print(sentence)
-
-                sentence = " ".join(sentence)
-                BShift.append(1)
-                shifted_sentences.append(sentence)
+                    sentence = " ".join(sentence)
+                    BShift.append(1)
+                    shifted_sentences.append(sentence)
+                else:
+                    BShift.append(0)
+                    shifted_sentences.append(sentence)
             else:
                 BShift.append(0)
                 shifted_sentences.append(sentence)
-        else:
+        except:
             BShift.append(0)
             shifted_sentences.append(sentence)
 
     d = {"BShift":BShift,"sentences":shifted_sentences}
     df = pd.DataFrame(d)
     df.to_csv(args.out,index=False)
+
+    df1 = pd.read_csv("../gold/kannada/bshift.csv")
+    with open("../gold/kannada/shifted_sentences.txt", "w") as f:
+        for item in df1["sentences"]:
+            f.write(item)
+            f.write("\n")
+        f.close()
+
 
 
 if __name__ == '__main__':

@@ -50,6 +50,8 @@ def main():
 
     wordContent = []
     sent = []
+    index = []
+
     sentences = getTotalCorpus(args.inp)
     vocabulary = {}
     data = ""
@@ -72,8 +74,6 @@ def main():
             f.write("\n")
         f.close()
     vocabulary = dict(sorted(vocabulary.items(), key=lambda item: item[1]))
-    # print(vocabulary)
-
 
     sampled_words = []
     for item in vocabulary.keys():
@@ -82,15 +82,19 @@ def main():
 
     for word in sampled_words:
         count  = 0
-        for sentence in sentences:
-            if sentence.count(word) == 1 and count <= 5:
+        indx = 0
+        for i in range(len(sentences)):
+            sentence = sentences[i]
+            x = sentence.split(" ")
+            if word in x and count <= 5:
                 count += 1
                 wordContent.append(word)
                 sent.append(sentence)
+                index.append(i)
 
     
     # write_lines_to_file(wordContent, "wordContent.txt")
-    d = {"WordContent":wordContent,"sentences":sent}
+    d = {"WordContent":wordContent,"sentences":sent,"index":index}
     df = pd.DataFrame(d)
     df.to_csv(args.out,index=False)
 
